@@ -12,6 +12,7 @@ public class Programa extends javax.swing.JFrame {
     /**
      * Creates new form Programa
      */
+    
     public Programa() {
         initComponents();
     }
@@ -32,15 +33,15 @@ public class Programa extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jButton6 = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
-        jToggleButton31 = new javax.swing.JToggleButton();
-        jToggleButton32 = new javax.swing.JToggleButton();
-        jToggleButton33 = new javax.swing.JToggleButton();
-        jToggleButton34 = new javax.swing.JToggleButton();
-        jToggleButton35 = new javax.swing.JToggleButton();
-        jToggleButton36 = new javax.swing.JToggleButton();
+        usuarios1 = new javax.swing.JToggleButton();
+        incidencia1 = new javax.swing.JToggleButton();
+        reportes1 = new javax.swing.JToggleButton();
+        alumnos1 = new javax.swing.JToggleButton();
+        historial1 = new javax.swing.JToggleButton();
+        biblio1 = new javax.swing.JToggleButton();
         jScrollPane3 = new javax.swing.JScrollPane();
         jTable3 = new javax.swing.JTable();
-        JFrameHistorial = new javax.swing.JFrame();
+        FHistorial = new javax.swing.JFrame();
         jLabel11 = new javax.swing.JLabel();
         jScrollPane4 = new javax.swing.JScrollPane();
         jTable4 = new javax.swing.JTable();
@@ -48,12 +49,12 @@ public class Programa extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jButton8 = new javax.swing.JButton();
         jPanel6 = new javax.swing.JPanel();
-        jToggleButton37 = new javax.swing.JToggleButton();
-        jToggleButton38 = new javax.swing.JToggleButton();
-        jToggleButton39 = new javax.swing.JToggleButton();
-        jToggleButton40 = new javax.swing.JToggleButton();
-        jToggleButton41 = new javax.swing.JToggleButton();
-        jToggleButton42 = new javax.swing.JToggleButton();
+        usuarios2 = new javax.swing.JToggleButton();
+        incidencia2 = new javax.swing.JToggleButton();
+        reportes2 = new javax.swing.JToggleButton();
+        alumnos2 = new javax.swing.JToggleButton();
+        historial2 = new javax.swing.JToggleButton();
+        biblio2 = new javax.swing.JToggleButton();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
@@ -65,12 +66,12 @@ public class Programa extends javax.swing.JFrame {
         jFrameIncidencia = new javax.swing.JFrame();
         jButton4 = new javax.swing.JButton();
         jPanel7 = new javax.swing.JPanel();
-        jToggleButton43 = new javax.swing.JToggleButton();
-        jToggleButton44 = new javax.swing.JToggleButton();
-        jToggleButton45 = new javax.swing.JToggleButton();
-        jToggleButton46 = new javax.swing.JToggleButton();
-        jToggleButton47 = new javax.swing.JToggleButton();
-        jToggleButton48 = new javax.swing.JToggleButton();
+        usuarios3 = new javax.swing.JToggleButton();
+        incidencia3 = new javax.swing.JToggleButton();
+        reportes3 = new javax.swing.JToggleButton();
+        alumnos3 = new javax.swing.JToggleButton();
+        historial3 = new javax.swing.JToggleButton();
+        biblio3 = new javax.swing.JToggleButton();
         jTextField6 = new javax.swing.JTextField();
         jLabel12 = new javax.swing.JLabel();
         jScrollPane5 = new javax.swing.JScrollPane();
@@ -85,12 +86,12 @@ public class Programa extends javax.swing.JFrame {
         jFrameReportes = new javax.swing.JFrame();
         jButton11 = new javax.swing.JButton();
         jPanel8 = new javax.swing.JPanel();
-        jToggleButton49 = new javax.swing.JToggleButton();
-        jToggleButton50 = new javax.swing.JToggleButton();
-        jToggleButton51 = new javax.swing.JToggleButton();
-        jToggleButton52 = new javax.swing.JToggleButton();
-        jToggleButton53 = new javax.swing.JToggleButton();
-        jToggleButton54 = new javax.swing.JToggleButton();
+        usuarios4 = new javax.swing.JToggleButton();
+        incidencia4 = new javax.swing.JToggleButton();
+        reportes4 = new javax.swing.JToggleButton();
+        alumnos4 = new javax.swing.JToggleButton();
+        historial4 = new javax.swing.JToggleButton();
+        biblio4 = new javax.swing.JToggleButton();
         jTextField5 = new javax.swing.JTextField();
         jTextField7 = new javax.swing.JTextField();
         jTextField8 = new javax.swing.JTextField();
@@ -105,12 +106,12 @@ public class Programa extends javax.swing.JFrame {
         jButton14 = new javax.swing.JButton();
         jFrameAlumnos = new javax.swing.JFrame();
         jPanel9 = new javax.swing.JPanel();
-        jToggleButton55 = new javax.swing.JToggleButton();
-        jToggleButton56 = new javax.swing.JToggleButton();
-        jToggleButton57 = new javax.swing.JToggleButton();
-        jToggleButton58 = new javax.swing.JToggleButton();
-        jToggleButton59 = new javax.swing.JToggleButton();
-        jToggleButton60 = new javax.swing.JToggleButton();
+        usuarios5 = new javax.swing.JToggleButton();
+        incidencia5 = new javax.swing.JToggleButton();
+        reportes5 = new javax.swing.JToggleButton();
+        alumnos5 = new javax.swing.JToggleButton();
+        historial5 = new javax.swing.JToggleButton();
+        biblio5 = new javax.swing.JToggleButton();
         jLabel20 = new javax.swing.JLabel();
         jPanel10 = new javax.swing.JPanel();
         jButton18 = new javax.swing.JButton();
@@ -138,12 +139,12 @@ public class Programa extends javax.swing.JFrame {
         jTextField16 = new javax.swing.JTextField();
         jFrameUsuario = new javax.swing.JFrame();
         jPanel11 = new javax.swing.JPanel();
-        jToggleButton61 = new javax.swing.JToggleButton();
-        jToggleButton62 = new javax.swing.JToggleButton();
-        jToggleButton63 = new javax.swing.JToggleButton();
-        jToggleButton64 = new javax.swing.JToggleButton();
-        jToggleButton65 = new javax.swing.JToggleButton();
-        jToggleButton66 = new javax.swing.JToggleButton();
+        usuarios6 = new javax.swing.JToggleButton();
+        incidencia6 = new javax.swing.JToggleButton();
+        reportes6 = new javax.swing.JToggleButton();
+        alumnos6 = new javax.swing.JToggleButton();
+        historial6 = new javax.swing.JToggleButton();
+        biblio6 = new javax.swing.JToggleButton();
         jButton16 = new javax.swing.JButton();
         jButton17 = new javax.swing.JButton();
         jLabel28 = new javax.swing.JLabel();
@@ -180,12 +181,12 @@ public class Programa extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
-        jToggleButton1 = new javax.swing.JToggleButton();
-        jToggleButton2 = new javax.swing.JToggleButton();
-        jToggleButton3 = new javax.swing.JToggleButton();
-        jToggleButton4 = new javax.swing.JToggleButton();
-        jToggleButton5 = new javax.swing.JToggleButton();
-        jToggleButton6 = new javax.swing.JToggleButton();
+        BTNusuarios = new javax.swing.JToggleButton();
+        BTNincidencia = new javax.swing.JToggleButton();
+        BTNreportes = new javax.swing.JToggleButton();
+        BTNalumnos = new javax.swing.JToggleButton();
+        BTNhistorial = new javax.swing.JToggleButton();
+        BTNbiblioteca = new javax.swing.JToggleButton();
         jButton2 = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
@@ -210,64 +211,89 @@ public class Programa extends javax.swing.JFrame {
         jPanel2.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         jPanel2.setForeground(new java.awt.Color(73, 17, 31));
 
-        jToggleButton31.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton31);
-        jToggleButton31.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton31.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton31.setText("Usuarios");
-        jToggleButton31.setBorder(null);
-        jToggleButton31.setHideActionText(true);
-        jToggleButton31.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-
-        jToggleButton32.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton32);
-        jToggleButton32.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton32.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton32.setText("Incidencia");
-        jToggleButton32.setBorder(null);
-        jToggleButton32.setHideActionText(true);
-        jToggleButton32.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-
-        jToggleButton33.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton33);
-        jToggleButton33.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton33.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton33.setText("Reportes");
-        jToggleButton33.setBorder(null);
-        jToggleButton33.setHideActionText(true);
-        jToggleButton33.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-
-        jToggleButton34.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton34);
-        jToggleButton34.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton34.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton34.setText("Alumnos");
-        jToggleButton34.setBorder(null);
-        jToggleButton34.setHideActionText(true);
-        jToggleButton34.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-
-        jToggleButton35.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton35);
-        jToggleButton35.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton35.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton35.setText("Historial");
-        jToggleButton35.setBorder(null);
-        jToggleButton35.setHideActionText(true);
-        jToggleButton35.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jToggleButton35.addActionListener(new java.awt.event.ActionListener() {
+        usuarios1.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(usuarios1);
+        usuarios1.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        usuarios1.setForeground(new java.awt.Color(255, 255, 255));
+        usuarios1.setText("Usuarios");
+        usuarios1.setBorder(null);
+        usuarios1.setHideActionText(true);
+        usuarios1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        usuarios1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jToggleButton35ActionPerformed(evt);
+                usuarios1ActionPerformed(evt);
             }
         });
 
-        jToggleButton36.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton36);
-        jToggleButton36.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton36.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton36.setText("En biblioteca ");
-        jToggleButton36.setBorder(null);
-        jToggleButton36.setHideActionText(true);
-        jToggleButton36.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        incidencia1.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(incidencia1);
+        incidencia1.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        incidencia1.setForeground(new java.awt.Color(255, 255, 255));
+        incidencia1.setText("Incidencia");
+        incidencia1.setBorder(null);
+        incidencia1.setHideActionText(true);
+        incidencia1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        incidencia1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                incidencia1ActionPerformed(evt);
+            }
+        });
+
+        reportes1.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(reportes1);
+        reportes1.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        reportes1.setForeground(new java.awt.Color(255, 255, 255));
+        reportes1.setText("Reportes");
+        reportes1.setBorder(null);
+        reportes1.setHideActionText(true);
+        reportes1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        reportes1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                reportes1ActionPerformed(evt);
+            }
+        });
+
+        alumnos1.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(alumnos1);
+        alumnos1.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        alumnos1.setForeground(new java.awt.Color(255, 255, 255));
+        alumnos1.setText("Alumnos");
+        alumnos1.setBorder(null);
+        alumnos1.setHideActionText(true);
+        alumnos1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        alumnos1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                alumnos1ActionPerformed(evt);
+            }
+        });
+
+        historial1.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(historial1);
+        historial1.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        historial1.setForeground(new java.awt.Color(255, 255, 255));
+        historial1.setText("Historial");
+        historial1.setBorder(null);
+        historial1.setHideActionText(true);
+        historial1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        historial1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                historial1ActionPerformed(evt);
+            }
+        });
+
+        biblio1.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(biblio1);
+        biblio1.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        biblio1.setForeground(new java.awt.Color(255, 255, 255));
+        biblio1.setText("En biblioteca ");
+        biblio1.setBorder(null);
+        biblio1.setHideActionText(true);
+        biblio1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        biblio1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                biblio1ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -276,13 +302,13 @@ public class Programa extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jToggleButton31, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jToggleButton32, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jToggleButton34, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jToggleButton35, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jToggleButton36, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(usuarios1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(incidencia1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(alumnos1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(historial1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(biblio1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jToggleButton33, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(reportes1, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 19, Short.MAX_VALUE)))
                 .addContainerGap())
         );
@@ -290,17 +316,17 @@ public class Programa extends javax.swing.JFrame {
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(39, 39, 39)
-                .addComponent(jToggleButton36, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(biblio1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton35, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(historial1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton32, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(incidencia1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton33, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(reportes1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton34, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(alumnos1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton31, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(usuarios1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(103, Short.MAX_VALUE))
         );
 
@@ -387,59 +413,89 @@ public class Programa extends javax.swing.JFrame {
         jPanel6.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         jPanel6.setForeground(new java.awt.Color(73, 17, 31));
 
-        jToggleButton37.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton37);
-        jToggleButton37.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton37.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton37.setText("Usuarios");
-        jToggleButton37.setBorder(null);
-        jToggleButton37.setHideActionText(true);
-        jToggleButton37.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        usuarios2.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(usuarios2);
+        usuarios2.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        usuarios2.setForeground(new java.awt.Color(255, 255, 255));
+        usuarios2.setText("Usuarios");
+        usuarios2.setBorder(null);
+        usuarios2.setHideActionText(true);
+        usuarios2.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        usuarios2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                usuarios2ActionPerformed(evt);
+            }
+        });
 
-        jToggleButton38.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton38);
-        jToggleButton38.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton38.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton38.setText("Incidencia");
-        jToggleButton38.setBorder(null);
-        jToggleButton38.setHideActionText(true);
-        jToggleButton38.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        incidencia2.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(incidencia2);
+        incidencia2.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        incidencia2.setForeground(new java.awt.Color(255, 255, 255));
+        incidencia2.setText("Incidencia");
+        incidencia2.setBorder(null);
+        incidencia2.setHideActionText(true);
+        incidencia2.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        incidencia2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                incidencia2ActionPerformed(evt);
+            }
+        });
 
-        jToggleButton39.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton39);
-        jToggleButton39.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton39.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton39.setText("Reportes");
-        jToggleButton39.setBorder(null);
-        jToggleButton39.setHideActionText(true);
-        jToggleButton39.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        reportes2.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(reportes2);
+        reportes2.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        reportes2.setForeground(new java.awt.Color(255, 255, 255));
+        reportes2.setText("Reportes");
+        reportes2.setBorder(null);
+        reportes2.setHideActionText(true);
+        reportes2.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        reportes2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                reportes2ActionPerformed(evt);
+            }
+        });
 
-        jToggleButton40.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton40);
-        jToggleButton40.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton40.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton40.setText("Alumnos");
-        jToggleButton40.setBorder(null);
-        jToggleButton40.setHideActionText(true);
-        jToggleButton40.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        alumnos2.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(alumnos2);
+        alumnos2.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        alumnos2.setForeground(new java.awt.Color(255, 255, 255));
+        alumnos2.setText("Alumnos");
+        alumnos2.setBorder(null);
+        alumnos2.setHideActionText(true);
+        alumnos2.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        alumnos2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                alumnos2ActionPerformed(evt);
+            }
+        });
 
-        jToggleButton41.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton41);
-        jToggleButton41.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton41.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton41.setText("Historial");
-        jToggleButton41.setBorder(null);
-        jToggleButton41.setHideActionText(true);
-        jToggleButton41.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        historial2.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(historial2);
+        historial2.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        historial2.setForeground(new java.awt.Color(255, 255, 255));
+        historial2.setText("Historial");
+        historial2.setBorder(null);
+        historial2.setHideActionText(true);
+        historial2.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        historial2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                historial2ActionPerformed(evt);
+            }
+        });
 
-        jToggleButton42.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton42);
-        jToggleButton42.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton42.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton42.setText("En biblioteca ");
-        jToggleButton42.setBorder(null);
-        jToggleButton42.setHideActionText(true);
-        jToggleButton42.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        biblio2.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(biblio2);
+        biblio2.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        biblio2.setForeground(new java.awt.Color(255, 255, 255));
+        biblio2.setText("En biblioteca ");
+        biblio2.setBorder(null);
+        biblio2.setHideActionText(true);
+        biblio2.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        biblio2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                biblio2ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
@@ -448,13 +504,13 @@ public class Programa extends javax.swing.JFrame {
             .addGroup(jPanel6Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jToggleButton37, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jToggleButton38, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jToggleButton40, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jToggleButton41, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jToggleButton42, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(usuarios2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(incidencia2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(alumnos2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(historial2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(biblio2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel6Layout.createSequentialGroup()
-                        .addComponent(jToggleButton39, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(reportes2, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 19, Short.MAX_VALUE)))
                 .addContainerGap())
         );
@@ -462,17 +518,17 @@ public class Programa extends javax.swing.JFrame {
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel6Layout.createSequentialGroup()
                 .addGap(39, 39, 39)
-                .addComponent(jToggleButton42, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(biblio2, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton41, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(historial2, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton38, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(incidencia2, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton39, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(reportes2, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton40, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(alumnos2, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton37, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(usuarios2, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(103, Short.MAX_VALUE))
         );
 
@@ -496,62 +552,62 @@ public class Programa extends javax.swing.JFrame {
 
         jTextField4.setFont(new java.awt.Font("Amiri", 0, 14)); // NOI18N
 
-        javax.swing.GroupLayout JFrameHistorialLayout = new javax.swing.GroupLayout(JFrameHistorial.getContentPane());
-        JFrameHistorial.getContentPane().setLayout(JFrameHistorialLayout);
-        JFrameHistorialLayout.setHorizontalGroup(
-            JFrameHistorialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(JFrameHistorialLayout.createSequentialGroup()
+        javax.swing.GroupLayout FHistorialLayout = new javax.swing.GroupLayout(FHistorial.getContentPane());
+        FHistorial.getContentPane().setLayout(FHistorialLayout);
+        FHistorialLayout.setHorizontalGroup(
+            FHistorialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(FHistorialLayout.createSequentialGroup()
                 .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGroup(JFrameHistorialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(JFrameHistorialLayout.createSequentialGroup()
+                .addGroup(FHistorialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(FHistorialLayout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(JFrameHistorialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(JFrameHistorialLayout.createSequentialGroup()
+                        .addGroup(FHistorialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(FHistorialLayout.createSequentialGroup()
                                 .addGap(244, 244, 244)
                                 .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
                                 .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 302, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(JFrameHistorialLayout.createSequentialGroup()
-                                .addGroup(JFrameHistorialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addGroup(FHistorialLayout.createSequentialGroup()
+                                .addGroup(FHistorialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                                     .addComponent(jTextField1)
                                     .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, 91, Short.MAX_VALUE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(JFrameHistorialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addGroup(FHistorialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                     .addComponent(jTextField2, javax.swing.GroupLayout.DEFAULT_SIZE, 90, Short.MAX_VALUE)
                                     .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(JFrameHistorialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addGroup(FHistorialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                     .addComponent(jTextField3, javax.swing.GroupLayout.DEFAULT_SIZE, 91, Short.MAX_VALUE)
                                     .addComponent(jLabel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(JFrameHistorialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addGroup(FHistorialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                     .addComponent(jLabel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(jTextField4, javax.swing.GroupLayout.DEFAULT_SIZE, 91, Short.MAX_VALUE))
                                 .addGap(18, 18, 18)
                                 .addComponent(jButton3)))
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JFrameHistorialLayout.createSequentialGroup()
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, FHistorialLayout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 566, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addContainerGap())))
         );
-        JFrameHistorialLayout.setVerticalGroup(
-            JFrameHistorialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(JFrameHistorialLayout.createSequentialGroup()
+        FHistorialLayout.setVerticalGroup(
+            FHistorialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(FHistorialLayout.createSequentialGroup()
                 .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(JFrameHistorialLayout.createSequentialGroup()
+            .addGroup(FHistorialLayout.createSequentialGroup()
                 .addGap(22, 22, 22)
                 .addComponent(jLabel11)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(JFrameHistorialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(FHistorialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel5)
                     .addComponent(jLabel6)
                     .addComponent(jLabel7)
                     .addComponent(jLabel9))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(JFrameHistorialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(FHistorialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -560,7 +616,7 @@ public class Programa extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 239, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(JFrameHistorialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(FHistorialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton7)
                     .addComponent(jButton8))
                 .addGap(19, 19, 19))
@@ -573,59 +629,89 @@ public class Programa extends javax.swing.JFrame {
         jPanel7.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         jPanel7.setForeground(new java.awt.Color(73, 17, 31));
 
-        jToggleButton43.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton43);
-        jToggleButton43.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton43.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton43.setText("Usuarios");
-        jToggleButton43.setBorder(null);
-        jToggleButton43.setHideActionText(true);
-        jToggleButton43.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        usuarios3.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(usuarios3);
+        usuarios3.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        usuarios3.setForeground(new java.awt.Color(255, 255, 255));
+        usuarios3.setText("Usuarios");
+        usuarios3.setBorder(null);
+        usuarios3.setHideActionText(true);
+        usuarios3.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        usuarios3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                usuarios3ActionPerformed(evt);
+            }
+        });
 
-        jToggleButton44.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton44);
-        jToggleButton44.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton44.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton44.setText("Incidencia");
-        jToggleButton44.setBorder(null);
-        jToggleButton44.setHideActionText(true);
-        jToggleButton44.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        incidencia3.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(incidencia3);
+        incidencia3.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        incidencia3.setForeground(new java.awt.Color(255, 255, 255));
+        incidencia3.setText("Incidencia");
+        incidencia3.setBorder(null);
+        incidencia3.setHideActionText(true);
+        incidencia3.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        incidencia3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                incidencia3ActionPerformed(evt);
+            }
+        });
 
-        jToggleButton45.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton45);
-        jToggleButton45.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton45.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton45.setText("Reportes");
-        jToggleButton45.setBorder(null);
-        jToggleButton45.setHideActionText(true);
-        jToggleButton45.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        reportes3.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(reportes3);
+        reportes3.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        reportes3.setForeground(new java.awt.Color(255, 255, 255));
+        reportes3.setText("Reportes");
+        reportes3.setBorder(null);
+        reportes3.setHideActionText(true);
+        reportes3.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        reportes3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                reportes3ActionPerformed(evt);
+            }
+        });
 
-        jToggleButton46.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton46);
-        jToggleButton46.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton46.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton46.setText("Alumnos");
-        jToggleButton46.setBorder(null);
-        jToggleButton46.setHideActionText(true);
-        jToggleButton46.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        alumnos3.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(alumnos3);
+        alumnos3.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        alumnos3.setForeground(new java.awt.Color(255, 255, 255));
+        alumnos3.setText("Alumnos");
+        alumnos3.setBorder(null);
+        alumnos3.setHideActionText(true);
+        alumnos3.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        alumnos3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                alumnos3ActionPerformed(evt);
+            }
+        });
 
-        jToggleButton47.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton47);
-        jToggleButton47.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton47.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton47.setText("Historial");
-        jToggleButton47.setBorder(null);
-        jToggleButton47.setHideActionText(true);
-        jToggleButton47.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        historial3.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(historial3);
+        historial3.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        historial3.setForeground(new java.awt.Color(255, 255, 255));
+        historial3.setText("Historial");
+        historial3.setBorder(null);
+        historial3.setHideActionText(true);
+        historial3.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        historial3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                historial3ActionPerformed(evt);
+            }
+        });
 
-        jToggleButton48.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton48);
-        jToggleButton48.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton48.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton48.setText("En biblioteca ");
-        jToggleButton48.setBorder(null);
-        jToggleButton48.setHideActionText(true);
-        jToggleButton48.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        biblio3.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(biblio3);
+        biblio3.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        biblio3.setForeground(new java.awt.Color(255, 255, 255));
+        biblio3.setText("En biblioteca ");
+        biblio3.setBorder(null);
+        biblio3.setHideActionText(true);
+        biblio3.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        biblio3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                biblio3ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -634,13 +720,13 @@ public class Programa extends javax.swing.JFrame {
             .addGroup(jPanel7Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jToggleButton43, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jToggleButton44, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jToggleButton46, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jToggleButton47, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jToggleButton48, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(usuarios3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(incidencia3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(alumnos3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(historial3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(biblio3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel7Layout.createSequentialGroup()
-                        .addComponent(jToggleButton45, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(reportes3, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 19, Short.MAX_VALUE)))
                 .addContainerGap())
         );
@@ -648,17 +734,17 @@ public class Programa extends javax.swing.JFrame {
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel7Layout.createSequentialGroup()
                 .addGap(39, 39, 39)
-                .addComponent(jToggleButton48, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(biblio3, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton47, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(historial3, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton44, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(incidencia3, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton45, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(reportes3, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton46, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(alumnos3, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton43, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(usuarios3, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -773,59 +859,89 @@ public class Programa extends javax.swing.JFrame {
         jPanel8.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         jPanel8.setForeground(new java.awt.Color(73, 17, 31));
 
-        jToggleButton49.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton49);
-        jToggleButton49.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton49.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton49.setText("Usuarios");
-        jToggleButton49.setBorder(null);
-        jToggleButton49.setHideActionText(true);
-        jToggleButton49.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        usuarios4.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(usuarios4);
+        usuarios4.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        usuarios4.setForeground(new java.awt.Color(255, 255, 255));
+        usuarios4.setText("Usuarios");
+        usuarios4.setBorder(null);
+        usuarios4.setHideActionText(true);
+        usuarios4.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        usuarios4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                usuarios4ActionPerformed(evt);
+            }
+        });
 
-        jToggleButton50.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton50);
-        jToggleButton50.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton50.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton50.setText("Incidencia");
-        jToggleButton50.setBorder(null);
-        jToggleButton50.setHideActionText(true);
-        jToggleButton50.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        incidencia4.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(incidencia4);
+        incidencia4.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        incidencia4.setForeground(new java.awt.Color(255, 255, 255));
+        incidencia4.setText("Incidencia");
+        incidencia4.setBorder(null);
+        incidencia4.setHideActionText(true);
+        incidencia4.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        incidencia4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                incidencia4ActionPerformed(evt);
+            }
+        });
 
-        jToggleButton51.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton51);
-        jToggleButton51.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton51.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton51.setText("Reportes");
-        jToggleButton51.setBorder(null);
-        jToggleButton51.setHideActionText(true);
-        jToggleButton51.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        reportes4.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(reportes4);
+        reportes4.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        reportes4.setForeground(new java.awt.Color(255, 255, 255));
+        reportes4.setText("Reportes");
+        reportes4.setBorder(null);
+        reportes4.setHideActionText(true);
+        reportes4.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        reportes4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                reportes4ActionPerformed(evt);
+            }
+        });
 
-        jToggleButton52.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton52);
-        jToggleButton52.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton52.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton52.setText("Alumnos");
-        jToggleButton52.setBorder(null);
-        jToggleButton52.setHideActionText(true);
-        jToggleButton52.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        alumnos4.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(alumnos4);
+        alumnos4.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        alumnos4.setForeground(new java.awt.Color(255, 255, 255));
+        alumnos4.setText("Alumnos");
+        alumnos4.setBorder(null);
+        alumnos4.setHideActionText(true);
+        alumnos4.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        alumnos4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                alumnos4ActionPerformed(evt);
+            }
+        });
 
-        jToggleButton53.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton53);
-        jToggleButton53.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton53.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton53.setText("Historial");
-        jToggleButton53.setBorder(null);
-        jToggleButton53.setHideActionText(true);
-        jToggleButton53.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        historial4.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(historial4);
+        historial4.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        historial4.setForeground(new java.awt.Color(255, 255, 255));
+        historial4.setText("Historial");
+        historial4.setBorder(null);
+        historial4.setHideActionText(true);
+        historial4.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        historial4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                historial4ActionPerformed(evt);
+            }
+        });
 
-        jToggleButton54.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton54);
-        jToggleButton54.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton54.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton54.setText("En biblioteca ");
-        jToggleButton54.setBorder(null);
-        jToggleButton54.setHideActionText(true);
-        jToggleButton54.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        biblio4.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(biblio4);
+        biblio4.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        biblio4.setForeground(new java.awt.Color(255, 255, 255));
+        biblio4.setText("En biblioteca ");
+        biblio4.setBorder(null);
+        biblio4.setHideActionText(true);
+        biblio4.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        biblio4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                biblio4ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
         jPanel8.setLayout(jPanel8Layout);
@@ -834,13 +950,13 @@ public class Programa extends javax.swing.JFrame {
             .addGroup(jPanel8Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jToggleButton49, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jToggleButton50, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jToggleButton52, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jToggleButton53, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jToggleButton54, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(usuarios4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(incidencia4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(alumnos4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(historial4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(biblio4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel8Layout.createSequentialGroup()
-                        .addComponent(jToggleButton51, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(reportes4, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 19, Short.MAX_VALUE)))
                 .addContainerGap())
         );
@@ -848,17 +964,17 @@ public class Programa extends javax.swing.JFrame {
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel8Layout.createSequentialGroup()
                 .addGap(39, 39, 39)
-                .addComponent(jToggleButton54, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(biblio4, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton53, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(historial4, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton50, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(incidencia4, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton51, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(reportes4, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton52, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(alumnos4, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton49, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(usuarios4, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -973,86 +1089,116 @@ public class Programa extends javax.swing.JFrame {
         jPanel9.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         jPanel9.setForeground(new java.awt.Color(73, 17, 31));
 
-        jToggleButton55.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton55);
-        jToggleButton55.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton55.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton55.setText("Usuarios");
-        jToggleButton55.setBorder(null);
-        jToggleButton55.setHideActionText(true);
-        jToggleButton55.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        usuarios5.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(usuarios5);
+        usuarios5.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        usuarios5.setForeground(new java.awt.Color(255, 255, 255));
+        usuarios5.setText("Usuarios");
+        usuarios5.setBorder(null);
+        usuarios5.setHideActionText(true);
+        usuarios5.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        usuarios5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                usuarios5ActionPerformed(evt);
+            }
+        });
 
-        jToggleButton56.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton56);
-        jToggleButton56.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton56.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton56.setText("Incidencia");
-        jToggleButton56.setBorder(null);
-        jToggleButton56.setHideActionText(true);
-        jToggleButton56.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        incidencia5.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(incidencia5);
+        incidencia5.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        incidencia5.setForeground(new java.awt.Color(255, 255, 255));
+        incidencia5.setText("Incidencia");
+        incidencia5.setBorder(null);
+        incidencia5.setHideActionText(true);
+        incidencia5.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        incidencia5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                incidencia5ActionPerformed(evt);
+            }
+        });
 
-        jToggleButton57.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton57);
-        jToggleButton57.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton57.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton57.setText("Reportes");
-        jToggleButton57.setBorder(null);
-        jToggleButton57.setHideActionText(true);
-        jToggleButton57.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        reportes5.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(reportes5);
+        reportes5.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        reportes5.setForeground(new java.awt.Color(255, 255, 255));
+        reportes5.setText("Reportes");
+        reportes5.setBorder(null);
+        reportes5.setHideActionText(true);
+        reportes5.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        reportes5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                reportes5ActionPerformed(evt);
+            }
+        });
 
-        jToggleButton58.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton58);
-        jToggleButton58.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton58.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton58.setText("Alumnos");
-        jToggleButton58.setBorder(null);
-        jToggleButton58.setHideActionText(true);
-        jToggleButton58.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        alumnos5.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(alumnos5);
+        alumnos5.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        alumnos5.setForeground(new java.awt.Color(255, 255, 255));
+        alumnos5.setText("Alumnos");
+        alumnos5.setBorder(null);
+        alumnos5.setHideActionText(true);
+        alumnos5.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        alumnos5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                alumnos5ActionPerformed(evt);
+            }
+        });
 
-        jToggleButton59.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton59);
-        jToggleButton59.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton59.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton59.setText("Historial");
-        jToggleButton59.setBorder(null);
-        jToggleButton59.setHideActionText(true);
-        jToggleButton59.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        historial5.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(historial5);
+        historial5.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        historial5.setForeground(new java.awt.Color(255, 255, 255));
+        historial5.setText("Historial");
+        historial5.setBorder(null);
+        historial5.setHideActionText(true);
+        historial5.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        historial5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                historial5ActionPerformed(evt);
+            }
+        });
 
-        jToggleButton60.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton60);
-        jToggleButton60.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton60.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton60.setText("En biblioteca ");
-        jToggleButton60.setBorder(null);
-        jToggleButton60.setHideActionText(true);
-        jToggleButton60.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        biblio5.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(biblio5);
+        biblio5.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        biblio5.setForeground(new java.awt.Color(255, 255, 255));
+        biblio5.setText("En biblioteca ");
+        biblio5.setBorder(null);
+        biblio5.setHideActionText(true);
+        biblio5.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        biblio5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                biblio5ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
         jPanel9.setLayout(jPanel9Layout);
         jPanel9Layout.setHorizontalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jToggleButton57, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jToggleButton58, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jToggleButton55, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jToggleButton56, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jToggleButton59, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jToggleButton60, javax.swing.GroupLayout.DEFAULT_SIZE, 213, Short.MAX_VALUE)
+            .addComponent(reportes5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(alumnos5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(usuarios5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(incidencia5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(historial5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(biblio5, javax.swing.GroupLayout.DEFAULT_SIZE, 213, Short.MAX_VALUE)
         );
         jPanel9Layout.setVerticalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel9Layout.createSequentialGroup()
                 .addGap(39, 39, 39)
-                .addComponent(jToggleButton60, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(biblio5, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton59, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(historial5, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton56, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(incidencia5, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton57, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(reportes5, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton58, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(alumnos5, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton55, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(usuarios5, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -1295,82 +1441,82 @@ public class Programa extends javax.swing.JFrame {
         jPanel11.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         jPanel11.setForeground(new java.awt.Color(73, 17, 31));
 
-        jToggleButton61.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton61);
-        jToggleButton61.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton61.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton61.setText("Usuarios");
-        jToggleButton61.setBorder(null);
-        jToggleButton61.setHideActionText(true);
-        jToggleButton61.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        usuarios6.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(usuarios6);
+        usuarios6.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        usuarios6.setForeground(new java.awt.Color(255, 255, 255));
+        usuarios6.setText("Usuarios");
+        usuarios6.setBorder(null);
+        usuarios6.setHideActionText(true);
+        usuarios6.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
-        jToggleButton62.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton62);
-        jToggleButton62.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton62.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton62.setText("Incidencia");
-        jToggleButton62.setBorder(null);
-        jToggleButton62.setHideActionText(true);
-        jToggleButton62.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jToggleButton62.addActionListener(new java.awt.event.ActionListener() {
+        incidencia6.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(incidencia6);
+        incidencia6.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        incidencia6.setForeground(new java.awt.Color(255, 255, 255));
+        incidencia6.setText("Incidencia");
+        incidencia6.setBorder(null);
+        incidencia6.setHideActionText(true);
+        incidencia6.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        incidencia6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jToggleButton62ActionPerformed(evt);
+                incidencia6ActionPerformed(evt);
             }
         });
 
-        jToggleButton63.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton63);
-        jToggleButton63.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton63.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton63.setText("Reportes");
-        jToggleButton63.setBorder(null);
-        jToggleButton63.setHideActionText(true);
-        jToggleButton63.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jToggleButton63.addActionListener(new java.awt.event.ActionListener() {
+        reportes6.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(reportes6);
+        reportes6.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        reportes6.setForeground(new java.awt.Color(255, 255, 255));
+        reportes6.setText("Reportes");
+        reportes6.setBorder(null);
+        reportes6.setHideActionText(true);
+        reportes6.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        reportes6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jToggleButton63ActionPerformed(evt);
+                reportes6ActionPerformed(evt);
             }
         });
 
-        jToggleButton64.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton64);
-        jToggleButton64.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton64.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton64.setText("Alumnos");
-        jToggleButton64.setBorder(null);
-        jToggleButton64.setHideActionText(true);
-        jToggleButton64.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jToggleButton64.addActionListener(new java.awt.event.ActionListener() {
+        alumnos6.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(alumnos6);
+        alumnos6.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        alumnos6.setForeground(new java.awt.Color(255, 255, 255));
+        alumnos6.setText("Alumnos");
+        alumnos6.setBorder(null);
+        alumnos6.setHideActionText(true);
+        alumnos6.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        alumnos6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jToggleButton64ActionPerformed(evt);
+                alumnos6ActionPerformed(evt);
             }
         });
 
-        jToggleButton65.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton65);
-        jToggleButton65.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton65.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton65.setText("Historial");
-        jToggleButton65.setBorder(null);
-        jToggleButton65.setHideActionText(true);
-        jToggleButton65.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jToggleButton65.addActionListener(new java.awt.event.ActionListener() {
+        historial6.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(historial6);
+        historial6.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        historial6.setForeground(new java.awt.Color(255, 255, 255));
+        historial6.setText("Historial");
+        historial6.setBorder(null);
+        historial6.setHideActionText(true);
+        historial6.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        historial6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jToggleButton65ActionPerformed(evt);
+                historial6ActionPerformed(evt);
             }
         });
 
-        jToggleButton66.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton66);
-        jToggleButton66.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton66.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton66.setText("En biblioteca ");
-        jToggleButton66.setBorder(null);
-        jToggleButton66.setHideActionText(true);
-        jToggleButton66.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jToggleButton66.addActionListener(new java.awt.event.ActionListener() {
+        biblio6.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(biblio6);
+        biblio6.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        biblio6.setForeground(new java.awt.Color(255, 255, 255));
+        biblio6.setText("En biblioteca ");
+        biblio6.setBorder(null);
+        biblio6.setHideActionText(true);
+        biblio6.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        biblio6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jToggleButton66ActionPerformed(evt);
+                biblio6ActionPerformed(evt);
             }
         });
 
@@ -1381,13 +1527,13 @@ public class Programa extends javax.swing.JFrame {
             .addGroup(jPanel11Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jToggleButton61, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jToggleButton62, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jToggleButton64, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jToggleButton65, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jToggleButton66, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(usuarios6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(incidencia6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(alumnos6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(historial6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(biblio6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel11Layout.createSequentialGroup()
-                        .addComponent(jToggleButton63, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(reportes6, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 19, Short.MAX_VALUE)))
                 .addContainerGap())
         );
@@ -1395,17 +1541,17 @@ public class Programa extends javax.swing.JFrame {
             jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel11Layout.createSequentialGroup()
                 .addGap(39, 39, 39)
-                .addComponent(jToggleButton66, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(biblio6, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton65, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(historial6, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton62, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(incidencia6, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton63, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(reportes6, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton64, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(alumnos6, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton61, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(usuarios6, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(31, Short.MAX_VALUE))
         );
 
@@ -1759,54 +1905,84 @@ public class Programa extends javax.swing.JFrame {
         jPanel1.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         jPanel1.setForeground(new java.awt.Color(73, 17, 31));
 
-        jToggleButton1.setBackground(new java.awt.Color(74, 18, 32));
-        buttonGroupLateral.add(jToggleButton1);
-        jToggleButton1.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton1.setText("Usuarios");
-        jToggleButton1.setBorder(null);
-        jToggleButton1.setHideActionText(true);
-        jToggleButton1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        BTNusuarios.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(BTNusuarios);
+        BTNusuarios.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        BTNusuarios.setForeground(new java.awt.Color(255, 255, 255));
+        BTNusuarios.setText("Usuarios");
+        BTNusuarios.setBorder(null);
+        BTNusuarios.setHideActionText(true);
+        BTNusuarios.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        BTNusuarios.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BTNusuariosActionPerformed(evt);
+            }
+        });
 
-        jToggleButton2.setBackground(new java.awt.Color(74, 18, 32));
-        jToggleButton2.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton2.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton2.setText("Incidencia");
-        jToggleButton2.setBorder(null);
-        jToggleButton2.setHideActionText(true);
-        jToggleButton2.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        BTNincidencia.setBackground(new java.awt.Color(74, 18, 32));
+        BTNincidencia.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        BTNincidencia.setForeground(new java.awt.Color(255, 255, 255));
+        BTNincidencia.setText("Incidencia");
+        BTNincidencia.setBorder(null);
+        BTNincidencia.setHideActionText(true);
+        BTNincidencia.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        BTNincidencia.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BTNincidenciaActionPerformed(evt);
+            }
+        });
 
-        jToggleButton3.setBackground(new java.awt.Color(74, 18, 32));
-        jToggleButton3.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton3.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton3.setText("Reportes");
-        jToggleButton3.setBorder(null);
-        jToggleButton3.setHideActionText(true);
-        jToggleButton3.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        BTNreportes.setBackground(new java.awt.Color(74, 18, 32));
+        BTNreportes.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        BTNreportes.setForeground(new java.awt.Color(255, 255, 255));
+        BTNreportes.setText("Reportes");
+        BTNreportes.setBorder(null);
+        BTNreportes.setHideActionText(true);
+        BTNreportes.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        BTNreportes.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BTNreportesActionPerformed(evt);
+            }
+        });
 
-        jToggleButton4.setBackground(new java.awt.Color(74, 18, 32));
-        jToggleButton4.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton4.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton4.setText("Alumnos");
-        jToggleButton4.setBorder(null);
-        jToggleButton4.setHideActionText(true);
-        jToggleButton4.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        BTNalumnos.setBackground(new java.awt.Color(74, 18, 32));
+        BTNalumnos.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        BTNalumnos.setForeground(new java.awt.Color(255, 255, 255));
+        BTNalumnos.setText("Alumnos");
+        BTNalumnos.setBorder(null);
+        BTNalumnos.setHideActionText(true);
+        BTNalumnos.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        BTNalumnos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BTNalumnosActionPerformed(evt);
+            }
+        });
 
-        jToggleButton5.setBackground(new java.awt.Color(74, 18, 32));
-        jToggleButton5.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton5.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton5.setText("Historial");
-        jToggleButton5.setBorder(null);
-        jToggleButton5.setHideActionText(true);
-        jToggleButton5.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        BTNhistorial.setBackground(new java.awt.Color(74, 18, 32));
+        BTNhistorial.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        BTNhistorial.setForeground(new java.awt.Color(255, 255, 255));
+        BTNhistorial.setText("Historial");
+        BTNhistorial.setBorder(null);
+        BTNhistorial.setHideActionText(true);
+        BTNhistorial.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        BTNhistorial.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BTNhistorialActionPerformed(evt);
+            }
+        });
 
-        jToggleButton6.setBackground(new java.awt.Color(74, 18, 32));
-        jToggleButton6.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
-        jToggleButton6.setForeground(new java.awt.Color(255, 255, 255));
-        jToggleButton6.setText("En biblioteca ");
-        jToggleButton6.setBorder(null);
-        jToggleButton6.setHideActionText(true);
-        jToggleButton6.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        BTNbiblioteca.setBackground(new java.awt.Color(74, 18, 32));
+        BTNbiblioteca.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        BTNbiblioteca.setForeground(new java.awt.Color(255, 255, 255));
+        BTNbiblioteca.setText("En biblioteca ");
+        BTNbiblioteca.setBorder(null);
+        BTNbiblioteca.setHideActionText(true);
+        BTNbiblioteca.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        BTNbiblioteca.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BTNbibliotecaActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -1815,13 +1991,13 @@ public class Programa extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jToggleButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jToggleButton2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jToggleButton4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jToggleButton5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jToggleButton6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(BTNusuarios, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(BTNincidencia, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(BTNalumnos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(BTNhistorial, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(BTNbiblioteca, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jToggleButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(BTNreportes, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 19, Short.MAX_VALUE)))
                 .addContainerGap())
         );
@@ -1829,17 +2005,17 @@ public class Programa extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(39, 39, 39)
-                .addComponent(jToggleButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BTNbiblioteca, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BTNhistorial, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BTNincidencia, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BTNreportes, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BTNalumnos, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BTNusuarios, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(103, Short.MAX_VALUE))
         );
 
@@ -1929,9 +2105,11 @@ public class Programa extends javax.swing.JFrame {
         jDialog2.setVisible(true);
     }//GEN-LAST:event_jButton16ActionPerformed
 
-    private void jToggleButton35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton35ActionPerformed
+    private void historial1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_historial1ActionPerformed
+FHistorial.setVisible(true);
+    this.dispose();  
         // TODO add your handling code here:
-    }//GEN-LAST:event_jToggleButton35ActionPerformed
+    }//GEN-LAST:event_historial1ActionPerformed
 
     private void jTextField13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField13ActionPerformed
         // TODO add your handling code here:
@@ -1981,49 +2159,61 @@ public class Programa extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField19ActionPerformed
 
-    private void jToggleButton62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton62ActionPerformed
-        // TODO add your handling code here:}
+    private void incidencia6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_incidencia6ActionPerformed
+        
+jFrameIncidencia.setVisible(true);
+    this.dispose(); // TODO add your handling code here:}
         jFrameIncidencia.pack();
         jFrameIncidencia.setLocationRelativeTo(jFrameUsuario);
-        jToggleButton44.setSelected(true);
+        incidencia3.setSelected(true);
         jFrameIncidencia.setVisible(true);
         jFrameUsuario.setVisible(false);
-    }//GEN-LAST:event_jToggleButton62ActionPerformed
+    }//GEN-LAST:event_incidencia6ActionPerformed
 
-    private void jToggleButton63ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton63ActionPerformed
+    private void reportes6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_reportes6ActionPerformed
+            jFrameReportes.setVisible(true);
+            this.dispose();
+
         jFrameReportes.pack();
         jFrameReportes.setLocationRelativeTo(jFrameUsuario);
-        jToggleButton51.setSelected(true);
+        reportes4.setSelected(true);
         jFrameReportes.setVisible(true);
         jFrameUsuario.setVisible(false);
         // TODO add your handling code here:
-    }//GEN-LAST:event_jToggleButton63ActionPerformed
+    }//GEN-LAST:event_reportes6ActionPerformed
 
-    private void jToggleButton64ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton64ActionPerformed
+    private void alumnos6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_alumnos6ActionPerformed
+       jFrameAlumnos.setVisible(true);
+    this.dispose();
+        
         jFrameAlumnos.pack();
         jFrameAlumnos.setLocationRelativeTo(jFrameUsuario);
-        jToggleButton58.setSelected(true);
+        alumnos5.setSelected(true);
         jFrameAlumnos.setVisible(true);
         jFrameUsuario.setVisible(false);
         // TODO add your handling code here:
-    }//GEN-LAST:event_jToggleButton64ActionPerformed
+    }//GEN-LAST:event_alumnos6ActionPerformed
 
-    private void jToggleButton65ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton65ActionPerformed
-        // TODO add your handling code here:
-        JFrameHistorial.pack();
-        JFrameHistorial.setLocationRelativeTo(jFrameUsuario);
-        jToggleButton41.setSelected(true);
-        JFrameHistorial.setVisible(true);
+    private void historial6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_historial6ActionPerformed
+FHistorial.setVisible(true);
+    this.dispose();        // TODO add your handling code here:
+        FHistorial.pack();
+        FHistorial.setLocationRelativeTo(jFrameUsuario);
+        historial2.setSelected(true);
+        FHistorial.setVisible(true);
         jFrameUsuario.setVisible(false);
-    }//GEN-LAST:event_jToggleButton65ActionPerformed
+    }//GEN-LAST:event_historial6ActionPerformed
 
-    private void jToggleButton66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton66ActionPerformed
+    private void biblio6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_biblio6ActionPerformed
+         AlumnosBiblio.setVisible(true);
+    this.dispose();
         this.setLocationRelativeTo(jFrameUsuario);
-        jToggleButton6.setSelected(true);
+        BTNbiblioteca.setSelected(true);
         this.setVisible(true);
         jFrameUsuario.setVisible(false);
+        
         // TODO add your handling code here:
-    }//GEN-LAST:event_jToggleButton66ActionPerformed
+    }//GEN-LAST:event_biblio6ActionPerformed
 
     private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
         // TODO add your handling code here:
@@ -2042,6 +2232,187 @@ public class Programa extends javax.swing.JFrame {
         jDialog1.setVisible(true);
 // TODO add your handling code here:
     }//GEN-LAST:event_jButton19ActionPerformed
+
+    private void BTNbibliotecaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTNbibliotecaActionPerformed
+      AlumnosBiblio.setVisible(true);
+    this.dispose();
+// TODO add your handling code here:
+    }//GEN-LAST:event_BTNbibliotecaActionPerformed
+
+    private void BTNalumnosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTNalumnosActionPerformed
+    jFrameAlumnos.setVisible(true);
+    this.dispose();    // TODO add your handling code here:
+    }//GEN-LAST:event_BTNalumnosActionPerformed
+
+    private void biblio1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_biblio1ActionPerformed
+    AlumnosBiblio.setVisible(true);
+    this.dispose();
+// TODO add your handling code here:
+    }//GEN-LAST:event_biblio1ActionPerformed
+
+    private void historial2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_historial2ActionPerformed
+FHistorial.setVisible(true);
+    this.dispose();        // TODO add your handling code here:
+    }//GEN-LAST:event_historial2ActionPerformed
+
+    private void BTNhistorialActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTNhistorialActionPerformed
+    FHistorial.setVisible(true);
+    this.dispose();    
+// TODO add your handling code here:
+    }//GEN-LAST:event_BTNhistorialActionPerformed
+
+    private void alumnos1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_alumnos1ActionPerformed
+jFrameAlumnos.setVisible(true);
+    this.dispose();  
+
+
+// TODO add your handling code here:
+    }//GEN-LAST:event_alumnos1ActionPerformed
+
+    private void BTNreportesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTNreportesActionPerformed
+    jFrameReportes.setVisible(true);
+    this.dispose();  // TODO add your handling code here:
+    }//GEN-LAST:event_BTNreportesActionPerformed
+
+    private void BTNusuariosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTNusuariosActionPerformed
+   jFrameUsuario.setVisible(true);
+    this.dispose();        // TODO add your handling code here:
+    }//GEN-LAST:event_BTNusuariosActionPerformed
+
+    private void BTNincidenciaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTNincidenciaActionPerformed
+   jFrameIncidencia.setVisible(true);
+    this.dispose();        // TODO add your handling code here:
+    }//GEN-LAST:event_BTNincidenciaActionPerformed
+
+    private void usuarios2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_usuarios2ActionPerformed
+     jFrameUsuario.setVisible(true);
+    this.dispose();  // TODO add your handling code here:
+    }//GEN-LAST:event_usuarios2ActionPerformed
+
+    private void biblio2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_biblio2ActionPerformed
+     AlumnosBiblio.setVisible(true);
+    this.dispose();    // TODO add your handling code here:
+    }//GEN-LAST:event_biblio2ActionPerformed
+
+    private void biblio3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_biblio3ActionPerformed
+     AlumnosBiblio.setVisible(true);
+    this.dispose();    // TODO add your handling code here:
+    }//GEN-LAST:event_biblio3ActionPerformed
+
+    private void reportes4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_reportes4ActionPerformed
+      jFrameReportes.setVisible(true);
+    this.dispose();   // TODO add your handling code here:
+    }//GEN-LAST:event_reportes4ActionPerformed
+
+    private void biblio4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_biblio4ActionPerformed
+ AlumnosBiblio.setVisible(true);
+    this.dispose();        // TODO add your handling code here:
+    }//GEN-LAST:event_biblio4ActionPerformed
+
+    private void biblio5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_biblio5ActionPerformed
+      AlumnosBiblio.setVisible(true);
+    this.dispose();   // TODO add your handling code here:
+    }//GEN-LAST:event_biblio5ActionPerformed
+
+    private void historial3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_historial3ActionPerformed
+FHistorial.setVisible(true);
+    this.dispose();        // TODO add your handling code here:
+    }//GEN-LAST:event_historial3ActionPerformed
+
+    private void historial4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_historial4ActionPerformed
+FHistorial.setVisible(true);
+    this.dispose();        // TODO add your handling code here:
+    }//GEN-LAST:event_historial4ActionPerformed
+
+    private void historial5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_historial5ActionPerformed
+FHistorial.setVisible(true);
+    this.dispose();        // TODO add your handling code here:
+    }//GEN-LAST:event_historial5ActionPerformed
+
+    private void incidencia1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_incidencia1ActionPerformed
+jFrameIncidencia.setVisible(true);
+    this.dispose();         // TODO add your handling code here:
+    }//GEN-LAST:event_incidencia1ActionPerformed
+
+    private void incidencia2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_incidencia2ActionPerformed
+    jFrameIncidencia.setVisible(true);
+    this.dispose();     // TODO add your handling code here:
+    }//GEN-LAST:event_incidencia2ActionPerformed
+
+    private void incidencia3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_incidencia3ActionPerformed
+jFrameIncidencia.setVisible(true);
+    this.dispose();         // TODO add your handling code here:
+    }//GEN-LAST:event_incidencia3ActionPerformed
+
+    private void incidencia4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_incidencia4ActionPerformed
+jFrameIncidencia.setVisible(true);
+    this.dispose();         // TODO add your handling code here:
+    }//GEN-LAST:event_incidencia4ActionPerformed
+
+    private void incidencia5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_incidencia5ActionPerformed
+jFrameIncidencia.setVisible(true);
+    this.dispose();         // TODO add your handling code here:
+    }//GEN-LAST:event_incidencia5ActionPerformed
+
+    private void reportes1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_reportes1ActionPerformed
+ jFrameReportes.setVisible(true);
+    this.dispose();        // TODO add your handling code here:
+    }//GEN-LAST:event_reportes1ActionPerformed
+
+    private void reportes2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_reportes2ActionPerformed
+ jFrameReportes.setVisible(true);
+    this.dispose();        // TODO add your handling code here:
+    }//GEN-LAST:event_reportes2ActionPerformed
+
+    private void reportes3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_reportes3ActionPerformed
+ jFrameReportes.setVisible(true);
+    this.dispose();        // TODO add your handling code here:
+    }//GEN-LAST:event_reportes3ActionPerformed
+
+    private void reportes5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_reportes5ActionPerformed
+ jFrameReportes.setVisible(true);
+    this.dispose();        // TODO add your handling code here:
+    }//GEN-LAST:event_reportes5ActionPerformed
+
+    private void alumnos2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_alumnos2ActionPerformed
+jFrameAlumnos.setVisible(true);
+    this.dispose();        // TODO add your handling code here:
+    }//GEN-LAST:event_alumnos2ActionPerformed
+
+    private void alumnos3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_alumnos3ActionPerformed
+jFrameAlumnos.setVisible(true);
+    this.dispose();        // TODO add your handling code here:
+    }//GEN-LAST:event_alumnos3ActionPerformed
+
+    private void alumnos4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_alumnos4ActionPerformed
+jFrameAlumnos.setVisible(true);
+    this.dispose();        // TODO add your handling code here:
+    }//GEN-LAST:event_alumnos4ActionPerformed
+
+    private void alumnos5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_alumnos5ActionPerformed
+jFrameAlumnos.setVisible(true);
+    this.dispose();        // TODO add your handling code here:
+    }//GEN-LAST:event_alumnos5ActionPerformed
+
+    private void usuarios1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_usuarios1ActionPerformed
+jFrameUsuario.setVisible(true);
+    this.dispose();         // TODO add your handling code here:
+    }//GEN-LAST:event_usuarios1ActionPerformed
+
+    private void usuarios3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_usuarios3ActionPerformed
+jFrameUsuario.setVisible(true);
+    this.dispose();         // TODO add your handling code here:
+    }//GEN-LAST:event_usuarios3ActionPerformed
+
+    private void usuarios4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_usuarios4ActionPerformed
+jFrameUsuario.setVisible(true);
+    this.dispose();         // TODO add your handling code here:
+    }//GEN-LAST:event_usuarios4ActionPerformed
+
+    private void usuarios5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_usuarios5ActionPerformed
+      jFrameUsuario.setVisible(true);
+    this.dispose();   // TODO add your handling code here:
+    }//GEN-LAST:event_usuarios5ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -2080,8 +2451,38 @@ public class Programa extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JFrame AlumnosBiblio;
-    private javax.swing.JFrame JFrameHistorial;
+    private javax.swing.JToggleButton BTNalumnos;
+    private javax.swing.JToggleButton BTNbiblioteca;
+    private javax.swing.JToggleButton BTNhistorial;
+    private javax.swing.JToggleButton BTNincidencia;
+    private javax.swing.JToggleButton BTNreportes;
+    private javax.swing.JToggleButton BTNusuarios;
+    private javax.swing.JFrame FHistorial;
+    private javax.swing.JToggleButton alumnos1;
+    private javax.swing.JToggleButton alumnos2;
+    private javax.swing.JToggleButton alumnos3;
+    private javax.swing.JToggleButton alumnos4;
+    private javax.swing.JToggleButton alumnos5;
+    private javax.swing.JToggleButton alumnos6;
+    private javax.swing.JToggleButton biblio1;
+    private javax.swing.JToggleButton biblio2;
+    private javax.swing.JToggleButton biblio3;
+    private javax.swing.JToggleButton biblio4;
+    private javax.swing.JToggleButton biblio5;
+    private javax.swing.JToggleButton biblio6;
     private javax.swing.ButtonGroup buttonGroupLateral;
+    private javax.swing.JToggleButton historial1;
+    private javax.swing.JToggleButton historial2;
+    private javax.swing.JToggleButton historial3;
+    private javax.swing.JToggleButton historial4;
+    private javax.swing.JToggleButton historial5;
+    private javax.swing.JToggleButton historial6;
+    private javax.swing.JToggleButton incidencia1;
+    private javax.swing.JToggleButton incidencia2;
+    private javax.swing.JToggleButton incidencia3;
+    private javax.swing.JToggleButton incidencia4;
+    private javax.swing.JToggleButton incidencia5;
+    private javax.swing.JToggleButton incidencia6;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
@@ -2201,47 +2602,17 @@ public class Programa extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField7;
     private javax.swing.JTextField jTextField8;
     private javax.swing.JTextField jTextField9;
-    private javax.swing.JToggleButton jToggleButton1;
-    private javax.swing.JToggleButton jToggleButton2;
-    private javax.swing.JToggleButton jToggleButton3;
-    private javax.swing.JToggleButton jToggleButton31;
-    private javax.swing.JToggleButton jToggleButton32;
-    private javax.swing.JToggleButton jToggleButton33;
-    private javax.swing.JToggleButton jToggleButton34;
-    private javax.swing.JToggleButton jToggleButton35;
-    private javax.swing.JToggleButton jToggleButton36;
-    private javax.swing.JToggleButton jToggleButton37;
-    private javax.swing.JToggleButton jToggleButton38;
-    private javax.swing.JToggleButton jToggleButton39;
-    private javax.swing.JToggleButton jToggleButton4;
-    private javax.swing.JToggleButton jToggleButton40;
-    private javax.swing.JToggleButton jToggleButton41;
-    private javax.swing.JToggleButton jToggleButton42;
-    private javax.swing.JToggleButton jToggleButton43;
-    private javax.swing.JToggleButton jToggleButton44;
-    private javax.swing.JToggleButton jToggleButton45;
-    private javax.swing.JToggleButton jToggleButton46;
-    private javax.swing.JToggleButton jToggleButton47;
-    private javax.swing.JToggleButton jToggleButton48;
-    private javax.swing.JToggleButton jToggleButton49;
-    private javax.swing.JToggleButton jToggleButton5;
-    private javax.swing.JToggleButton jToggleButton50;
-    private javax.swing.JToggleButton jToggleButton51;
-    private javax.swing.JToggleButton jToggleButton52;
-    private javax.swing.JToggleButton jToggleButton53;
-    private javax.swing.JToggleButton jToggleButton54;
-    private javax.swing.JToggleButton jToggleButton55;
-    private javax.swing.JToggleButton jToggleButton56;
-    private javax.swing.JToggleButton jToggleButton57;
-    private javax.swing.JToggleButton jToggleButton58;
-    private javax.swing.JToggleButton jToggleButton59;
-    private javax.swing.JToggleButton jToggleButton6;
-    private javax.swing.JToggleButton jToggleButton60;
-    private javax.swing.JToggleButton jToggleButton61;
-    private javax.swing.JToggleButton jToggleButton62;
-    private javax.swing.JToggleButton jToggleButton63;
-    private javax.swing.JToggleButton jToggleButton64;
-    private javax.swing.JToggleButton jToggleButton65;
-    private javax.swing.JToggleButton jToggleButton66;
+    private javax.swing.JToggleButton reportes1;
+    private javax.swing.JToggleButton reportes2;
+    private javax.swing.JToggleButton reportes3;
+    private javax.swing.JToggleButton reportes4;
+    private javax.swing.JToggleButton reportes5;
+    private javax.swing.JToggleButton reportes6;
+    private javax.swing.JToggleButton usuarios1;
+    private javax.swing.JToggleButton usuarios2;
+    private javax.swing.JToggleButton usuarios3;
+    private javax.swing.JToggleButton usuarios4;
+    private javax.swing.JToggleButton usuarios5;
+    private javax.swing.JToggleButton usuarios6;
     // End of variables declaration//GEN-END:variables
 }

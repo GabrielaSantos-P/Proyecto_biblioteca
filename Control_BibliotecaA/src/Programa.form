@@ -116,13 +116,13 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jToggleButton31" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jToggleButton32" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jToggleButton34" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jToggleButton35" alignment="1" max="32767" attributes="0"/>
-                          <Component id="jToggleButton36" alignment="0" max="32767" attributes="0"/>
+                          <Component id="usuarios1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="incidencia1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="alumnos1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="historial1" alignment="1" max="32767" attributes="0"/>
+                          <Component id="biblio1" alignment="0" max="32767" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="jToggleButton33" min="-2" pref="182" max="-2" attributes="0"/>
+                              <Component id="reportes1" min="-2" pref="182" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="19" max="32767" attributes="0"/>
                           </Group>
                       </Group>
@@ -134,24 +134,24 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
-                      <Component id="jToggleButton36" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="biblio1" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton35" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="historial1" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton32" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="incidencia1" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton33" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="reportes1" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton34" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="alumnos1" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton31" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="usuarios1" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace pref="103" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton31">
+            <Component class="javax.swing.JToggleButton" name="usuarios1">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -172,8 +172,11 @@
                 <Property name="hideActionText" type="boolean" value="true"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="usuarios1ActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton32">
+            <Component class="javax.swing.JToggleButton" name="incidencia1">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -194,8 +197,11 @@
                 <Property name="hideActionText" type="boolean" value="true"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="incidencia1ActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton33">
+            <Component class="javax.swing.JToggleButton" name="reportes1">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -216,8 +222,11 @@
                 <Property name="hideActionText" type="boolean" value="true"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="reportes1ActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton34">
+            <Component class="javax.swing.JToggleButton" name="alumnos1">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -238,8 +247,11 @@
                 <Property name="hideActionText" type="boolean" value="true"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="alumnos1ActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton35">
+            <Component class="javax.swing.JToggleButton" name="historial1">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -261,10 +273,10 @@
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton35ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="historial1ActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton36">
+            <Component class="javax.swing.JToggleButton" name="biblio1">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -285,6 +297,9 @@
                 <Property name="hideActionText" type="boolean" value="true"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="biblio1ActionPerformed"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>
@@ -344,7 +359,7 @@
         </Container>
       </SubComponents>
     </Container>
-    <Container class="javax.swing.JFrame" name="JFrameHistorial">
+    <Container class="javax.swing.JFrame" name="FHistorial">
 
       <Layout>
         <DimensionLayout dim="0">
@@ -553,13 +568,13 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jToggleButton37" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jToggleButton38" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jToggleButton40" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jToggleButton41" alignment="1" max="32767" attributes="0"/>
-                          <Component id="jToggleButton42" alignment="0" max="32767" attributes="0"/>
+                          <Component id="usuarios2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="incidencia2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="alumnos2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="historial2" alignment="1" max="32767" attributes="0"/>
+                          <Component id="biblio2" alignment="0" max="32767" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="jToggleButton39" min="-2" pref="182" max="-2" attributes="0"/>
+                              <Component id="reportes2" min="-2" pref="182" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="19" max="32767" attributes="0"/>
                           </Group>
                       </Group>
@@ -571,24 +586,24 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
-                      <Component id="jToggleButton42" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="biblio2" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton41" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="historial2" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton38" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="incidencia2" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton39" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="reportes2" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton40" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="alumnos2" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton37" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="usuarios2" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace pref="103" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton37">
+            <Component class="javax.swing.JToggleButton" name="usuarios2">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -609,8 +624,11 @@
                 <Property name="hideActionText" type="boolean" value="true"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="usuarios2ActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton38">
+            <Component class="javax.swing.JToggleButton" name="incidencia2">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -631,8 +649,11 @@
                 <Property name="hideActionText" type="boolean" value="true"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="incidencia2ActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton39">
+            <Component class="javax.swing.JToggleButton" name="reportes2">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -653,8 +674,11 @@
                 <Property name="hideActionText" type="boolean" value="true"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="reportes2ActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton40">
+            <Component class="javax.swing.JToggleButton" name="alumnos2">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -675,8 +699,11 @@
                 <Property name="hideActionText" type="boolean" value="true"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="alumnos2ActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton41">
+            <Component class="javax.swing.JToggleButton" name="historial2">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -697,8 +724,11 @@
                 <Property name="hideActionText" type="boolean" value="true"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="historial2ActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton42">
+            <Component class="javax.swing.JToggleButton" name="biblio2">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -719,6 +749,9 @@
                 <Property name="hideActionText" type="boolean" value="true"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="biblio2ActionPerformed"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>
@@ -886,13 +919,13 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jToggleButton43" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jToggleButton44" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jToggleButton46" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jToggleButton47" alignment="1" max="32767" attributes="0"/>
-                          <Component id="jToggleButton48" alignment="0" max="32767" attributes="0"/>
+                          <Component id="usuarios3" alignment="0" max="32767" attributes="0"/>
+                          <Component id="incidencia3" alignment="0" max="32767" attributes="0"/>
+                          <Component id="alumnos3" alignment="0" max="32767" attributes="0"/>
+                          <Component id="historial3" alignment="1" max="32767" attributes="0"/>
+                          <Component id="biblio3" alignment="0" max="32767" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="jToggleButton45" min="-2" pref="182" max="-2" attributes="0"/>
+                              <Component id="reportes3" min="-2" pref="182" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="19" max="32767" attributes="0"/>
                           </Group>
                       </Group>
@@ -904,24 +937,24 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
-                      <Component id="jToggleButton48" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="biblio3" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton47" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="historial3" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton44" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="incidencia3" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton45" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="reportes3" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton46" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="alumnos3" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton43" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="usuarios3" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton43">
+            <Component class="javax.swing.JToggleButton" name="usuarios3">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -942,8 +975,11 @@
                 <Property name="hideActionText" type="boolean" value="true"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="usuarios3ActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton44">
+            <Component class="javax.swing.JToggleButton" name="incidencia3">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -964,8 +1000,11 @@
                 <Property name="hideActionText" type="boolean" value="true"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="incidencia3ActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton45">
+            <Component class="javax.swing.JToggleButton" name="reportes3">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -986,8 +1025,11 @@
                 <Property name="hideActionText" type="boolean" value="true"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="reportes3ActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton46">
+            <Component class="javax.swing.JToggleButton" name="alumnos3">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -1008,8 +1050,11 @@
                 <Property name="hideActionText" type="boolean" value="true"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="alumnos3ActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton47">
+            <Component class="javax.swing.JToggleButton" name="historial3">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -1030,8 +1075,11 @@
                 <Property name="hideActionText" type="boolean" value="true"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="historial3ActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton48">
+            <Component class="javax.swing.JToggleButton" name="biblio3">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -1052,6 +1100,9 @@
                 <Property name="hideActionText" type="boolean" value="true"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="biblio3ActionPerformed"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>
@@ -1308,13 +1359,13 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jToggleButton49" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jToggleButton50" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jToggleButton52" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jToggleButton53" alignment="1" max="32767" attributes="0"/>
-                          <Component id="jToggleButton54" alignment="0" max="32767" attributes="0"/>
+                          <Component id="usuarios4" alignment="0" max="32767" attributes="0"/>
+                          <Component id="incidencia4" alignment="0" max="32767" attributes="0"/>
+                          <Component id="alumnos4" alignment="0" max="32767" attributes="0"/>
+                          <Component id="historial4" alignment="1" max="32767" attributes="0"/>
+                          <Component id="biblio4" alignment="0" max="32767" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="jToggleButton51" min="-2" pref="182" max="-2" attributes="0"/>
+                              <Component id="reportes4" min="-2" pref="182" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="19" max="32767" attributes="0"/>
                           </Group>
                       </Group>
@@ -1326,24 +1377,24 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
-                      <Component id="jToggleButton54" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="biblio4" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton53" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="historial4" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton50" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="incidencia4" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton51" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="reportes4" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton52" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="alumnos4" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton49" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="usuarios4" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton49">
+            <Component class="javax.swing.JToggleButton" name="usuarios4">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -1364,8 +1415,11 @@
                 <Property name="hideActionText" type="boolean" value="true"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="usuarios4ActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton50">
+            <Component class="javax.swing.JToggleButton" name="incidencia4">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -1386,8 +1440,11 @@
                 <Property name="hideActionText" type="boolean" value="true"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="incidencia4ActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton51">
+            <Component class="javax.swing.JToggleButton" name="reportes4">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -1408,8 +1465,11 @@
                 <Property name="hideActionText" type="boolean" value="true"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="reportes4ActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton52">
+            <Component class="javax.swing.JToggleButton" name="alumnos4">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -1430,8 +1490,11 @@
                 <Property name="hideActionText" type="boolean" value="true"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="alumnos4ActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton53">
+            <Component class="javax.swing.JToggleButton" name="historial4">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -1452,8 +1515,11 @@
                 <Property name="hideActionText" type="boolean" value="true"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="historial4ActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton54">
+            <Component class="javax.swing.JToggleButton" name="biblio4">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -1474,6 +1540,9 @@
                 <Property name="hideActionText" type="boolean" value="true"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="biblio4ActionPerformed"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>
@@ -1684,36 +1753,36 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jToggleButton57" alignment="1" max="32767" attributes="0"/>
-                  <Component id="jToggleButton58" alignment="1" max="32767" attributes="0"/>
-                  <Component id="jToggleButton55" alignment="1" max="32767" attributes="0"/>
-                  <Component id="jToggleButton56" alignment="1" max="32767" attributes="0"/>
-                  <Component id="jToggleButton59" alignment="1" max="32767" attributes="0"/>
-                  <Component id="jToggleButton60" alignment="0" pref="213" max="32767" attributes="0"/>
+                  <Component id="reportes5" alignment="1" max="32767" attributes="0"/>
+                  <Component id="alumnos5" alignment="1" max="32767" attributes="0"/>
+                  <Component id="usuarios5" alignment="1" max="32767" attributes="0"/>
+                  <Component id="incidencia5" alignment="1" max="32767" attributes="0"/>
+                  <Component id="historial5" alignment="1" max="32767" attributes="0"/>
+                  <Component id="biblio5" alignment="0" pref="213" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
-                      <Component id="jToggleButton60" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="biblio5" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton59" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="historial5" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton56" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="incidencia5" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton57" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="reportes5" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton58" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="alumnos5" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton55" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="usuarios5" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton55">
+            <Component class="javax.swing.JToggleButton" name="usuarios5">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -1734,8 +1803,11 @@
                 <Property name="hideActionText" type="boolean" value="true"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="usuarios5ActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton56">
+            <Component class="javax.swing.JToggleButton" name="incidencia5">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -1756,8 +1828,11 @@
                 <Property name="hideActionText" type="boolean" value="true"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="incidencia5ActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton57">
+            <Component class="javax.swing.JToggleButton" name="reportes5">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -1778,8 +1853,11 @@
                 <Property name="hideActionText" type="boolean" value="true"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="reportes5ActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton58">
+            <Component class="javax.swing.JToggleButton" name="alumnos5">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -1800,8 +1878,11 @@
                 <Property name="hideActionText" type="boolean" value="true"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="alumnos5ActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton59">
+            <Component class="javax.swing.JToggleButton" name="historial5">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -1822,8 +1903,11 @@
                 <Property name="hideActionText" type="boolean" value="true"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="historial5ActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton60">
+            <Component class="javax.swing.JToggleButton" name="biblio5">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -1844,6 +1928,9 @@
                 <Property name="hideActionText" type="boolean" value="true"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="biblio5ActionPerformed"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>
@@ -2326,13 +2413,13 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jToggleButton61" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jToggleButton62" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jToggleButton64" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jToggleButton65" alignment="1" max="32767" attributes="0"/>
-                          <Component id="jToggleButton66" alignment="0" max="32767" attributes="0"/>
+                          <Component id="usuarios6" alignment="0" max="32767" attributes="0"/>
+                          <Component id="incidencia6" alignment="0" max="32767" attributes="0"/>
+                          <Component id="alumnos6" alignment="0" max="32767" attributes="0"/>
+                          <Component id="historial6" alignment="1" max="32767" attributes="0"/>
+                          <Component id="biblio6" alignment="0" max="32767" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="jToggleButton63" min="-2" pref="182" max="-2" attributes="0"/>
+                              <Component id="reportes6" min="-2" pref="182" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="19" max="32767" attributes="0"/>
                           </Group>
                       </Group>
@@ -2344,24 +2431,24 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
-                      <Component id="jToggleButton66" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="biblio6" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton65" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="historial6" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton62" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="incidencia6" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton63" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="reportes6" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton64" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="alumnos6" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jToggleButton61" min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="usuarios6" min="-2" pref="43" max="-2" attributes="0"/>
                       <EmptySpace pref="31" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton61">
+            <Component class="javax.swing.JToggleButton" name="usuarios6">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -2383,7 +2470,7 @@
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton62">
+            <Component class="javax.swing.JToggleButton" name="incidencia6">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -2405,10 +2492,10 @@
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton62ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="incidencia6ActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton63">
+            <Component class="javax.swing.JToggleButton" name="reportes6">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -2430,10 +2517,10 @@
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton63ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="reportes6ActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton64">
+            <Component class="javax.swing.JToggleButton" name="alumnos6">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -2455,10 +2542,10 @@
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton64ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="alumnos6ActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton65">
+            <Component class="javax.swing.JToggleButton" name="historial6">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -2480,10 +2567,10 @@
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton65ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="historial6ActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JToggleButton" name="jToggleButton66">
+            <Component class="javax.swing.JToggleButton" name="biblio6">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -2505,7 +2592,7 @@
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton66ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="biblio6ActionPerformed"/>
               </Events>
             </Component>
           </SubComponents>
@@ -3108,13 +3195,13 @@
               <Group type="102" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jToggleButton1" alignment="0" max="32767" attributes="0"/>
-                      <Component id="jToggleButton2" alignment="0" max="32767" attributes="0"/>
-                      <Component id="jToggleButton4" alignment="0" max="32767" attributes="0"/>
-                      <Component id="jToggleButton5" alignment="1" max="32767" attributes="0"/>
-                      <Component id="jToggleButton6" alignment="0" max="32767" attributes="0"/>
+                      <Component id="BTNusuarios" alignment="0" max="32767" attributes="0"/>
+                      <Component id="BTNincidencia" alignment="0" max="32767" attributes="0"/>
+                      <Component id="BTNalumnos" alignment="0" max="32767" attributes="0"/>
+                      <Component id="BTNhistorial" alignment="1" max="32767" attributes="0"/>
+                      <Component id="BTNbiblioteca" alignment="0" max="32767" attributes="0"/>
                       <Group type="102" alignment="0" attributes="0">
-                          <Component id="jToggleButton3" min="-2" pref="182" max="-2" attributes="0"/>
+                          <Component id="BTNreportes" min="-2" pref="182" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="19" max="32767" attributes="0"/>
                       </Group>
                   </Group>
@@ -3126,24 +3213,24 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
-                  <Component id="jToggleButton6" min="-2" pref="43" max="-2" attributes="0"/>
+                  <Component id="BTNbiblioteca" min="-2" pref="43" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jToggleButton5" min="-2" pref="43" max="-2" attributes="0"/>
+                  <Component id="BTNhistorial" min="-2" pref="43" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jToggleButton2" min="-2" pref="43" max="-2" attributes="0"/>
+                  <Component id="BTNincidencia" min="-2" pref="43" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jToggleButton3" min="-2" pref="43" max="-2" attributes="0"/>
+                  <Component id="BTNreportes" min="-2" pref="43" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jToggleButton4" min="-2" pref="43" max="-2" attributes="0"/>
+                  <Component id="BTNalumnos" min="-2" pref="43" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jToggleButton1" min="-2" pref="43" max="-2" attributes="0"/>
+                  <Component id="BTNusuarios" min="-2" pref="43" max="-2" attributes="0"/>
                   <EmptySpace pref="103" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JToggleButton" name="jToggleButton1">
+        <Component class="javax.swing.JToggleButton" name="BTNusuarios">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -3164,8 +3251,11 @@
             <Property name="hideActionText" type="boolean" value="true"/>
             <Property name="horizontalAlignment" type="int" value="2"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BTNusuariosActionPerformed"/>
+          </Events>
         </Component>
-        <Component class="javax.swing.JToggleButton" name="jToggleButton2">
+        <Component class="javax.swing.JToggleButton" name="BTNincidencia">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -3183,8 +3273,11 @@
             <Property name="hideActionText" type="boolean" value="true"/>
             <Property name="horizontalAlignment" type="int" value="2"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BTNincidenciaActionPerformed"/>
+          </Events>
         </Component>
-        <Component class="javax.swing.JToggleButton" name="jToggleButton3">
+        <Component class="javax.swing.JToggleButton" name="BTNreportes">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -3202,8 +3295,11 @@
             <Property name="hideActionText" type="boolean" value="true"/>
             <Property name="horizontalAlignment" type="int" value="2"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BTNreportesActionPerformed"/>
+          </Events>
         </Component>
-        <Component class="javax.swing.JToggleButton" name="jToggleButton4">
+        <Component class="javax.swing.JToggleButton" name="BTNalumnos">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -3221,8 +3317,11 @@
             <Property name="hideActionText" type="boolean" value="true"/>
             <Property name="horizontalAlignment" type="int" value="2"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BTNalumnosActionPerformed"/>
+          </Events>
         </Component>
-        <Component class="javax.swing.JToggleButton" name="jToggleButton5">
+        <Component class="javax.swing.JToggleButton" name="BTNhistorial">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -3240,8 +3339,11 @@
             <Property name="hideActionText" type="boolean" value="true"/>
             <Property name="horizontalAlignment" type="int" value="2"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BTNhistorialActionPerformed"/>
+          </Events>
         </Component>
-        <Component class="javax.swing.JToggleButton" name="jToggleButton6">
+        <Component class="javax.swing.JToggleButton" name="BTNbiblioteca">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="20" green="12" red="4a" type="rgb"/>
@@ -3259,6 +3361,9 @@
             <Property name="hideActionText" type="boolean" value="true"/>
             <Property name="horizontalAlignment" type="int" value="2"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BTNbibliotecaActionPerformed"/>
+          </Events>
         </Component>
       </SubComponents>
     </Container>
