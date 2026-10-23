@@ -137,6 +137,45 @@ public class Programa extends javax.swing.JFrame {
         jComboBox5 = new javax.swing.JComboBox<>();
         jTextField16 = new javax.swing.JTextField();
         jFrameUsuario = new javax.swing.JFrame();
+        jPanel11 = new javax.swing.JPanel();
+        jToggleButton61 = new javax.swing.JToggleButton();
+        jToggleButton62 = new javax.swing.JToggleButton();
+        jToggleButton63 = new javax.swing.JToggleButton();
+        jToggleButton64 = new javax.swing.JToggleButton();
+        jToggleButton65 = new javax.swing.JToggleButton();
+        jToggleButton66 = new javax.swing.JToggleButton();
+        jButton16 = new javax.swing.JButton();
+        jButton17 = new javax.swing.JButton();
+        jLabel28 = new javax.swing.JLabel();
+        jScrollPane8 = new javax.swing.JScrollPane();
+        jTable7 = new javax.swing.JTable();
+        jButton19 = new javax.swing.JButton();
+        jDialog1 = new javax.swing.JDialog();
+        jLabel26 = new javax.swing.JLabel();
+        jLabel27 = new javax.swing.JLabel();
+        jTextField13 = new javax.swing.JTextField();
+        jLabel32 = new javax.swing.JLabel();
+        jPasswordField1 = new javax.swing.JPasswordField();
+        jButton21 = new javax.swing.JButton();
+        jButton22 = new javax.swing.JButton();
+        jDialog2 = new javax.swing.JDialog();
+        jTextField14 = new javax.swing.JTextField();
+        jLabel33 = new javax.swing.JLabel();
+        jButton23 = new javax.swing.JButton();
+        jButton24 = new javax.swing.JButton();
+        jLabel35 = new javax.swing.JLabel();
+        jTextField15 = new javax.swing.JTextField();
+        jLabel36 = new javax.swing.JLabel();
+        jTextField17 = new javax.swing.JTextField();
+        jTextField18 = new javax.swing.JTextField();
+        jLabel34 = new javax.swing.JLabel();
+        jTextField19 = new javax.swing.JTextField();
+        jLabel37 = new javax.swing.JLabel();
+        jFrame1 = new javax.swing.JFrame();
+        jLabel38 = new javax.swing.JLabel();
+        jScrollPane7 = new javax.swing.JScrollPane();
+        jTextArea2 = new javax.swing.JTextArea();
+        jLabel39 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
@@ -156,7 +195,7 @@ public class Programa extends javax.swing.JFrame {
 
         jButton5.setBackground(new java.awt.Color(74, 18, 32));
         jButton5.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
-        jButton5.setForeground(new java.awt.Color(74, 18, 32));
+        jButton5.setForeground(new java.awt.Color(255, 255, 255));
         jButton5.setText("Actualizar");
 
         jLabel4.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
@@ -164,7 +203,7 @@ public class Programa extends javax.swing.JFrame {
 
         jButton6.setBackground(new java.awt.Color(74, 18, 32));
         jButton6.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
-        jButton6.setForeground(new java.awt.Color(74, 18, 32));
+        jButton6.setForeground(new java.awt.Color(255, 255, 255));
         jButton6.setText("Imprimir listado");
 
         jPanel2.setBackground(new java.awt.Color(74, 18, 32));
@@ -172,6 +211,7 @@ public class Programa extends javax.swing.JFrame {
         jPanel2.setForeground(new java.awt.Color(73, 17, 31));
 
         jToggleButton31.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton31);
         jToggleButton31.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton31.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton31.setText("Usuarios");
@@ -180,6 +220,7 @@ public class Programa extends javax.swing.JFrame {
         jToggleButton31.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         jToggleButton32.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton32);
         jToggleButton32.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton32.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton32.setText("Incidencia");
@@ -188,6 +229,7 @@ public class Programa extends javax.swing.JFrame {
         jToggleButton32.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         jToggleButton33.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton33);
         jToggleButton33.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton33.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton33.setText("Reportes");
@@ -196,6 +238,7 @@ public class Programa extends javax.swing.JFrame {
         jToggleButton33.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         jToggleButton34.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton34);
         jToggleButton34.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton34.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton34.setText("Alumnos");
@@ -204,6 +247,7 @@ public class Programa extends javax.swing.JFrame {
         jToggleButton34.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         jToggleButton35.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton35);
         jToggleButton35.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton35.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton35.setText("Historial");
@@ -217,6 +261,7 @@ public class Programa extends javax.swing.JFrame {
         });
 
         jToggleButton36.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton36);
         jToggleButton36.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton36.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton36.setText("En biblioteca ");
@@ -327,7 +372,7 @@ public class Programa extends javax.swing.JFrame {
 
         jButton7.setBackground(new java.awt.Color(74, 18, 32));
         jButton7.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
-        jButton7.setForeground(new java.awt.Color(74, 18, 32));
+        jButton7.setForeground(new java.awt.Color(255, 255, 255));
         jButton7.setText("Exportar PDF");
 
         jLabel5.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
@@ -335,7 +380,7 @@ public class Programa extends javax.swing.JFrame {
 
         jButton8.setBackground(new java.awt.Color(74, 18, 32));
         jButton8.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
-        jButton8.setForeground(new java.awt.Color(74, 18, 32));
+        jButton8.setForeground(new java.awt.Color(255, 255, 255));
         jButton8.setText("Imprimir");
 
         jPanel6.setBackground(new java.awt.Color(74, 18, 32));
@@ -343,6 +388,7 @@ public class Programa extends javax.swing.JFrame {
         jPanel6.setForeground(new java.awt.Color(73, 17, 31));
 
         jToggleButton37.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton37);
         jToggleButton37.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton37.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton37.setText("Usuarios");
@@ -351,6 +397,7 @@ public class Programa extends javax.swing.JFrame {
         jToggleButton37.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         jToggleButton38.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton38);
         jToggleButton38.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton38.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton38.setText("Incidencia");
@@ -359,6 +406,7 @@ public class Programa extends javax.swing.JFrame {
         jToggleButton38.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         jToggleButton39.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton39);
         jToggleButton39.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton39.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton39.setText("Reportes");
@@ -367,6 +415,7 @@ public class Programa extends javax.swing.JFrame {
         jToggleButton39.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         jToggleButton40.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton40);
         jToggleButton40.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton40.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton40.setText("Alumnos");
@@ -375,6 +424,7 @@ public class Programa extends javax.swing.JFrame {
         jToggleButton40.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         jToggleButton41.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton41);
         jToggleButton41.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton41.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton41.setText("Historial");
@@ -383,6 +433,7 @@ public class Programa extends javax.swing.JFrame {
         jToggleButton41.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         jToggleButton42.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton42);
         jToggleButton42.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton42.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton42.setText("En biblioteca ");
@@ -523,6 +574,7 @@ public class Programa extends javax.swing.JFrame {
         jPanel7.setForeground(new java.awt.Color(73, 17, 31));
 
         jToggleButton43.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton43);
         jToggleButton43.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton43.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton43.setText("Usuarios");
@@ -531,6 +583,7 @@ public class Programa extends javax.swing.JFrame {
         jToggleButton43.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         jToggleButton44.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton44);
         jToggleButton44.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton44.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton44.setText("Incidencia");
@@ -539,6 +592,7 @@ public class Programa extends javax.swing.JFrame {
         jToggleButton44.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         jToggleButton45.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton45);
         jToggleButton45.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton45.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton45.setText("Reportes");
@@ -547,6 +601,7 @@ public class Programa extends javax.swing.JFrame {
         jToggleButton45.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         jToggleButton46.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton46);
         jToggleButton46.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton46.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton46.setText("Alumnos");
@@ -555,6 +610,7 @@ public class Programa extends javax.swing.JFrame {
         jToggleButton46.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         jToggleButton47.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton47);
         jToggleButton47.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton47.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton47.setText("Historial");
@@ -563,6 +619,7 @@ public class Programa extends javax.swing.JFrame {
         jToggleButton47.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         jToggleButton48.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton48);
         jToggleButton48.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton48.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton48.setText("En biblioteca ");
@@ -633,7 +690,7 @@ public class Programa extends javax.swing.JFrame {
 
         jButton9.setBackground(new java.awt.Color(74, 18, 32));
         jButton9.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
-        jButton9.setForeground(new java.awt.Color(74, 18, 32));
+        jButton9.setForeground(new java.awt.Color(255, 255, 255));
         jButton9.setText("Actualizar");
 
         jLabel15.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
@@ -641,7 +698,7 @@ public class Programa extends javax.swing.JFrame {
 
         jButton10.setBackground(new java.awt.Color(74, 18, 32));
         jButton10.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
-        jButton10.setForeground(new java.awt.Color(74, 18, 32));
+        jButton10.setForeground(new java.awt.Color(255, 255, 255));
         jButton10.setText("Imprimir");
 
         jTextArea1.setColumns(20);
@@ -717,6 +774,7 @@ public class Programa extends javax.swing.JFrame {
         jPanel8.setForeground(new java.awt.Color(73, 17, 31));
 
         jToggleButton49.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton49);
         jToggleButton49.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton49.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton49.setText("Usuarios");
@@ -725,6 +783,7 @@ public class Programa extends javax.swing.JFrame {
         jToggleButton49.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         jToggleButton50.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton50);
         jToggleButton50.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton50.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton50.setText("Incidencia");
@@ -733,6 +792,7 @@ public class Programa extends javax.swing.JFrame {
         jToggleButton50.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         jToggleButton51.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton51);
         jToggleButton51.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton51.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton51.setText("Reportes");
@@ -741,6 +801,7 @@ public class Programa extends javax.swing.JFrame {
         jToggleButton51.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         jToggleButton52.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton52);
         jToggleButton52.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton52.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton52.setText("Alumnos");
@@ -749,6 +810,7 @@ public class Programa extends javax.swing.JFrame {
         jToggleButton52.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         jToggleButton53.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton53);
         jToggleButton53.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton53.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton53.setText("Historial");
@@ -757,6 +819,7 @@ public class Programa extends javax.swing.JFrame {
         jToggleButton53.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         jToggleButton54.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton54);
         jToggleButton54.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton54.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton54.setText("En biblioteca ");
@@ -826,7 +889,7 @@ public class Programa extends javax.swing.JFrame {
 
         jButton12.setBackground(new java.awt.Color(74, 18, 32));
         jButton12.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
-        jButton12.setForeground(new java.awt.Color(74, 18, 32));
+        jButton12.setForeground(new java.awt.Color(255, 255, 255));
         jButton12.setText("Exportar PDF");
 
         jLabel17.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
@@ -837,12 +900,12 @@ public class Programa extends javax.swing.JFrame {
 
         jButton13.setBackground(new java.awt.Color(74, 18, 32));
         jButton13.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
-        jButton13.setForeground(new java.awt.Color(74, 18, 32));
+        jButton13.setForeground(new java.awt.Color(255, 255, 255));
         jButton13.setText("Imprimir");
 
         jButton14.setBackground(new java.awt.Color(74, 18, 32));
         jButton14.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
-        jButton14.setForeground(new java.awt.Color(74, 18, 32));
+        jButton14.setForeground(new java.awt.Color(255, 255, 255));
         jButton14.setText("Consolidado por grupos");
 
         javax.swing.GroupLayout jFrameReportesLayout = new javax.swing.GroupLayout(jFrameReportes.getContentPane());
@@ -911,6 +974,7 @@ public class Programa extends javax.swing.JFrame {
         jPanel9.setForeground(new java.awt.Color(73, 17, 31));
 
         jToggleButton55.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton55);
         jToggleButton55.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton55.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton55.setText("Usuarios");
@@ -919,6 +983,7 @@ public class Programa extends javax.swing.JFrame {
         jToggleButton55.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         jToggleButton56.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton56);
         jToggleButton56.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton56.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton56.setText("Incidencia");
@@ -927,6 +992,7 @@ public class Programa extends javax.swing.JFrame {
         jToggleButton56.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         jToggleButton57.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton57);
         jToggleButton57.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton57.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton57.setText("Reportes");
@@ -935,6 +1001,7 @@ public class Programa extends javax.swing.JFrame {
         jToggleButton57.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         jToggleButton58.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton58);
         jToggleButton58.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton58.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton58.setText("Alumnos");
@@ -943,6 +1010,7 @@ public class Programa extends javax.swing.JFrame {
         jToggleButton58.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         jToggleButton59.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton59);
         jToggleButton59.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton59.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton59.setText("Historial");
@@ -951,6 +1019,7 @@ public class Programa extends javax.swing.JFrame {
         jToggleButton59.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         jToggleButton60.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton60);
         jToggleButton60.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton60.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton60.setText("En biblioteca ");
@@ -1222,15 +1291,419 @@ public class Programa extends javax.swing.JFrame {
             .addComponent(jPanel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
+        jPanel11.setBackground(new java.awt.Color(74, 18, 32));
+        jPanel11.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        jPanel11.setForeground(new java.awt.Color(73, 17, 31));
+
+        jToggleButton61.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton61);
+        jToggleButton61.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        jToggleButton61.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton61.setText("Usuarios");
+        jToggleButton61.setBorder(null);
+        jToggleButton61.setHideActionText(true);
+        jToggleButton61.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+
+        jToggleButton62.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton62);
+        jToggleButton62.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        jToggleButton62.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton62.setText("Incidencia");
+        jToggleButton62.setBorder(null);
+        jToggleButton62.setHideActionText(true);
+        jToggleButton62.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+
+        jToggleButton63.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton63);
+        jToggleButton63.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        jToggleButton63.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton63.setText("Reportes");
+        jToggleButton63.setBorder(null);
+        jToggleButton63.setHideActionText(true);
+        jToggleButton63.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+
+        jToggleButton64.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton64);
+        jToggleButton64.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        jToggleButton64.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton64.setText("Alumnos");
+        jToggleButton64.setBorder(null);
+        jToggleButton64.setHideActionText(true);
+        jToggleButton64.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+
+        jToggleButton65.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton65);
+        jToggleButton65.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        jToggleButton65.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton65.setText("Historial");
+        jToggleButton65.setBorder(null);
+        jToggleButton65.setHideActionText(true);
+        jToggleButton65.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+
+        jToggleButton66.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton66);
+        jToggleButton66.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
+        jToggleButton66.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton66.setText("En biblioteca ");
+        jToggleButton66.setBorder(null);
+        jToggleButton66.setHideActionText(true);
+        jToggleButton66.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+
+        javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
+        jPanel11.setLayout(jPanel11Layout);
+        jPanel11Layout.setHorizontalGroup(
+            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel11Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jToggleButton61, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jToggleButton62, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jToggleButton64, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jToggleButton65, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jToggleButton66, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(jPanel11Layout.createSequentialGroup()
+                        .addComponent(jToggleButton63, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 19, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+        jPanel11Layout.setVerticalGroup(
+            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel11Layout.createSequentialGroup()
+                .addGap(39, 39, 39)
+                .addComponent(jToggleButton66, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jToggleButton65, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jToggleButton62, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jToggleButton63, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jToggleButton64, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jToggleButton61, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(31, Short.MAX_VALUE))
+        );
+
+        jButton16.setBackground(new java.awt.Color(74, 18, 32));
+        jButton16.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
+        jButton16.setForeground(new java.awt.Color(255, 255, 255));
+        jButton16.setText("Crear usuario");
+        jButton16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton16ActionPerformed(evt);
+            }
+        });
+
+        jButton17.setBackground(new java.awt.Color(74, 18, 32));
+        jButton17.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
+        jButton17.setForeground(new java.awt.Color(255, 255, 255));
+        jButton17.setText("Modificar");
+
+        jLabel28.setFont(new java.awt.Font("Sitka Text", 1, 24)); // NOI18N
+        jLabel28.setText("Gestión de Usuario");
+
+        jTable7.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
+            },
+            new String [] {
+                "Usuario", "Nombre", "Rol", "Estado"
+            }
+        ));
+        jScrollPane8.setViewportView(jTable7);
+
+        jButton19.setBackground(new java.awt.Color(74, 18, 32));
+        jButton19.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
+        jButton19.setForeground(new java.awt.Color(255, 255, 255));
+        jButton19.setText("Activar o desactivar");
+
         javax.swing.GroupLayout jFrameUsuarioLayout = new javax.swing.GroupLayout(jFrameUsuario.getContentPane());
         jFrameUsuario.getContentPane().setLayout(jFrameUsuarioLayout);
         jFrameUsuarioLayout.setHorizontalGroup(
             jFrameUsuarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(jFrameUsuarioLayout.createSequentialGroup()
+                .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jFrameUsuarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jFrameUsuarioLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel28, javax.swing.GroupLayout.PREFERRED_SIZE, 302, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap(270, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jFrameUsuarioLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(jFrameUsuarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jFrameUsuarioLayout.createSequentialGroup()
+                                .addComponent(jButton16, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(jButton17, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jButton19))
+                            .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 539, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(21, 21, 21))))
         );
         jFrameUsuarioLayout.setVerticalGroup(
             jFrameUsuarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(jFrameUsuarioLayout.createSequentialGroup()
+                .addGap(22, 22, 22)
+                .addComponent(jLabel28)
+                .addGap(18, 18, 18)
+                .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addGroup(jFrameUsuarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButton16)
+                    .addComponent(jButton17)
+                    .addComponent(jButton19))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addComponent(jPanel11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+
+        jDialog1.setTitle("Autorizacion administrativa");
+
+        jLabel26.setText("Para modificar un registro, confirme, su identidad como Adminstrador");
+
+        jLabel27.setText("Usuario Administrador");
+
+        jTextField13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField13ActionPerformed(evt);
+            }
+        });
+
+        jLabel32.setText("Contraseña");
+
+        jPasswordField1.setText("jPasswordField1");
+
+        jButton21.setBackground(new java.awt.Color(74, 18, 32));
+        jButton21.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
+        jButton21.setForeground(new java.awt.Color(255, 255, 255));
+        jButton21.setText("Autorizar");
+        jButton21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton21ActionPerformed(evt);
+            }
+        });
+
+        jButton22.setBackground(new java.awt.Color(74, 18, 32));
+        jButton22.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
+        jButton22.setForeground(new java.awt.Color(255, 255, 255));
+        jButton22.setText("Cancelar");
+        jButton22.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton22ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jDialog1Layout = new javax.swing.GroupLayout(jDialog1.getContentPane());
+        jDialog1.getContentPane().setLayout(jDialog1Layout);
+        jDialog1Layout.setHorizontalGroup(
+            jDialog1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jDialog1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jDialog1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jDialog1Layout.createSequentialGroup()
+                        .addComponent(jTextField13)
+                        .addGap(38, 38, 38))
+                    .addGroup(jDialog1Layout.createSequentialGroup()
+                        .addGroup(jDialog1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel26, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addGroup(jDialog1Layout.createSequentialGroup()
+                                .addGroup(jDialog1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addGroup(jDialog1Layout.createSequentialGroup()
+                                        .addComponent(jButton22, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(jButton21, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(jDialog1Layout.createSequentialGroup()
+                                        .addGroup(jDialog1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jLabel27, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jLabel32, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addGap(245, 245, 245))
+                                    .addComponent(jPasswordField1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 389, Short.MAX_VALUE))
+                                .addGap(0, 32, Short.MAX_VALUE)))
+                        .addContainerGap())))
+        );
+        jDialog1Layout.setVerticalGroup(
+            jDialog1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jDialog1Layout.createSequentialGroup()
+                .addGap(26, 26, 26)
+                .addComponent(jLabel26, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel27)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jTextField13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel32)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPasswordField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addGroup(jDialog1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButton22)
+                    .addComponent(jButton21))
+                .addContainerGap(82, Short.MAX_VALUE))
+        );
+
+        jDialog2.setTitle("Crear Usuario");
+
+        jTextField14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField14ActionPerformed(evt);
+            }
+        });
+
+        jLabel33.setText("Nombre del Usuraio");
+
+        jButton23.setBackground(new java.awt.Color(74, 18, 32));
+        jButton23.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
+        jButton23.setForeground(new java.awt.Color(255, 255, 255));
+        jButton23.setText("Autorizar");
+        jButton23.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton23ActionPerformed(evt);
+            }
+        });
+
+        jButton24.setBackground(new java.awt.Color(74, 18, 32));
+        jButton24.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
+        jButton24.setForeground(new java.awt.Color(255, 255, 255));
+        jButton24.setText("Cancelar");
+        jButton24.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton24ActionPerformed(evt);
+            }
+        });
+
+        jLabel35.setText("Nombre");
+
+        jTextField15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField15ActionPerformed(evt);
+            }
+        });
+
+        jLabel36.setText("Contraseña");
+
+        jTextField17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField17ActionPerformed(evt);
+            }
+        });
+
+        jTextField18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField18ActionPerformed(evt);
+            }
+        });
+
+        jLabel34.setText("Rol");
+
+        jTextField19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField19ActionPerformed(evt);
+            }
+        });
+
+        jLabel37.setText("Estado");
+
+        javax.swing.GroupLayout jDialog2Layout = new javax.swing.GroupLayout(jDialog2.getContentPane());
+        jDialog2.getContentPane().setLayout(jDialog2Layout);
+        jDialog2Layout.setHorizontalGroup(
+            jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jDialog2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jDialog2Layout.createSequentialGroup()
+                        .addGroup(jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel36, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel34, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel33, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel35, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(jDialog2Layout.createSequentialGroup()
+                        .addGroup(jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addComponent(jTextField17, javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(jDialog2Layout.createSequentialGroup()
+                                    .addComponent(jButton24, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(15, 15, 15)
+                                    .addComponent(jButton23, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addComponent(jLabel37, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(jTextField19, javax.swing.GroupLayout.DEFAULT_SIZE, 388, Short.MAX_VALUE))))
+                        .addContainerGap(41, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jDialog2Layout.createSequentialGroup()
+                        .addGroup(jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jTextField15, javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jTextField14, javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jTextField18, javax.swing.GroupLayout.Alignment.LEADING))
+                        .addGap(38, 38, 38))))
+        );
+        jDialog2Layout.setVerticalGroup(
+            jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jDialog2Layout.createSequentialGroup()
+                .addGap(17, 17, 17)
+                .addComponent(jLabel35)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jTextField14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel33)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jTextField15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel36)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jTextField18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel34)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jTextField17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel37)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jTextField19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 44, Short.MAX_VALUE)
+                .addGroup(jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButton24)
+                    .addComponent(jButton23)))
+        );
+
+        jLabel38.setFont(new java.awt.Font("STXihei", 1, 24)); // NOI18N
+        jLabel38.setForeground(new java.awt.Color(111, 17, 32));
+        jLabel38.setText("Acerque su credencial al lector");
+
+        jTextArea2.setColumns(20);
+        jTextArea2.setRows(5);
+        jTextArea2.setText("Nombre Alumno\nmatricula\ncarrera");
+        jScrollPane7.setViewportView(jTextArea2);
+
+        jLabel39.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/pasar (2).png"))); // NOI18N
+
+        javax.swing.GroupLayout jFrame1Layout = new javax.swing.GroupLayout(jFrame1.getContentPane());
+        jFrame1.getContentPane().setLayout(jFrame1Layout);
+        jFrame1Layout.setHorizontalGroup(
+            jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jFrame1Layout.createSequentialGroup()
+                .addGroup(jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 387, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jFrame1Layout.createSequentialGroup()
+                            .addGap(51, 51, 51)
+                            .addComponent(jLabel38))
+                        .addGroup(jFrame1Layout.createSequentialGroup()
+                            .addGap(160, 160, 160)
+                            .addComponent(jLabel39))))
+                .addContainerGap(62, Short.MAX_VALUE))
+        );
+        jFrame1Layout.setVerticalGroup(
+            jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jFrame1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel39, javax.swing.GroupLayout.PREFERRED_SIZE, 142, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel38, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(46, Short.MAX_VALUE))
         );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -1252,6 +1725,7 @@ public class Programa extends javax.swing.JFrame {
         jPanel1.setForeground(new java.awt.Color(73, 17, 31));
 
         jToggleButton1.setBackground(new java.awt.Color(74, 18, 32));
+        buttonGroupLateral.add(jToggleButton1);
         jToggleButton1.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         jToggleButton1.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton1.setText("Usuarios");
@@ -1412,9 +1886,53 @@ public class Programa extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox4ActionPerformed
 
+    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton16ActionPerformed
+
     private void jToggleButton35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton35ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jToggleButton35ActionPerformed
+
+    private void jTextField13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField13ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField13ActionPerformed
+
+    private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton22ActionPerformed
+
+    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton21ActionPerformed
+
+    private void jTextField14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField14ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField14ActionPerformed
+
+    private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton23ActionPerformed
+
+    private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton24ActionPerformed
+
+    private void jTextField15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField15ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField15ActionPerformed
+
+    private void jTextField17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField17ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField17ActionPerformed
+
+    private void jTextField18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField18ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField18ActionPerformed
+
+    private void jTextField19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField19ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField19ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1461,9 +1979,16 @@ public class Programa extends javax.swing.JFrame {
     private javax.swing.JButton jButton12;
     private javax.swing.JButton jButton13;
     private javax.swing.JButton jButton14;
+    private javax.swing.JButton jButton16;
+    private javax.swing.JButton jButton17;
     private javax.swing.JButton jButton18;
+    private javax.swing.JButton jButton19;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton20;
+    private javax.swing.JButton jButton21;
+    private javax.swing.JButton jButton22;
+    private javax.swing.JButton jButton23;
+    private javax.swing.JButton jButton24;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
@@ -1476,6 +2001,9 @@ public class Programa extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> jComboBox3;
     private javax.swing.JComboBox<String> jComboBox4;
     private javax.swing.JComboBox<String> jComboBox5;
+    private javax.swing.JDialog jDialog1;
+    private javax.swing.JDialog jDialog2;
+    private javax.swing.JFrame jFrame1;
     private javax.swing.JFrame jFrameAlumnos;
     private javax.swing.JFrame jFrameIncidencia;
     private javax.swing.JFrame jFrameReportes;
@@ -1498,10 +2026,21 @@ public class Programa extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
     private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel30;
     private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel36;
+    private javax.swing.JLabel jLabel37;
+    private javax.swing.JLabel jLabel38;
+    private javax.swing.JLabel jLabel39;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
@@ -1510,29 +2049,41 @@ public class Programa extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
+    private javax.swing.JPanel jPanel11;
     private javax.swing.JPanel jPanel12;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
+    private javax.swing.JPasswordField jPasswordField1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane5;
     private javax.swing.JScrollPane jScrollPane6;
+    private javax.swing.JScrollPane jScrollPane7;
+    private javax.swing.JScrollPane jScrollPane8;
     private javax.swing.JTable jTable1;
     private javax.swing.JTable jTable3;
     private javax.swing.JTable jTable4;
     private javax.swing.JTable jTable5;
     private javax.swing.JTable jTable6;
+    private javax.swing.JTable jTable7;
     private javax.swing.JTextArea jTextArea1;
+    private javax.swing.JTextArea jTextArea2;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField10;
     private javax.swing.JTextField jTextField11;
     private javax.swing.JTextField jTextField12;
+    private javax.swing.JTextField jTextField13;
+    private javax.swing.JTextField jTextField14;
+    private javax.swing.JTextField jTextField15;
     private javax.swing.JTextField jTextField16;
+    private javax.swing.JTextField jTextField17;
+    private javax.swing.JTextField jTextField18;
+    private javax.swing.JTextField jTextField19;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;
     private javax.swing.JTextField jTextField4;
@@ -1577,5 +2128,11 @@ public class Programa extends javax.swing.JFrame {
     private javax.swing.JToggleButton jToggleButton59;
     private javax.swing.JToggleButton jToggleButton6;
     private javax.swing.JToggleButton jToggleButton60;
+    private javax.swing.JToggleButton jToggleButton61;
+    private javax.swing.JToggleButton jToggleButton62;
+    private javax.swing.JToggleButton jToggleButton63;
+    private javax.swing.JToggleButton jToggleButton64;
+    private javax.swing.JToggleButton jToggleButton65;
+    private javax.swing.JToggleButton jToggleButton66;
     // End of variables declaration//GEN-END:variables
 }
