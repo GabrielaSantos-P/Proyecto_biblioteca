@@ -1312,6 +1312,11 @@ public class Programa extends javax.swing.JFrame {
         jToggleButton62.setBorder(null);
         jToggleButton62.setHideActionText(true);
         jToggleButton62.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jToggleButton62.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButton62ActionPerformed(evt);
+            }
+        });
 
         jToggleButton63.setBackground(new java.awt.Color(74, 18, 32));
         buttonGroupLateral.add(jToggleButton63);
@@ -1321,6 +1326,11 @@ public class Programa extends javax.swing.JFrame {
         jToggleButton63.setBorder(null);
         jToggleButton63.setHideActionText(true);
         jToggleButton63.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jToggleButton63.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButton63ActionPerformed(evt);
+            }
+        });
 
         jToggleButton64.setBackground(new java.awt.Color(74, 18, 32));
         buttonGroupLateral.add(jToggleButton64);
@@ -1330,6 +1340,11 @@ public class Programa extends javax.swing.JFrame {
         jToggleButton64.setBorder(null);
         jToggleButton64.setHideActionText(true);
         jToggleButton64.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jToggleButton64.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButton64ActionPerformed(evt);
+            }
+        });
 
         jToggleButton65.setBackground(new java.awt.Color(74, 18, 32));
         buttonGroupLateral.add(jToggleButton65);
@@ -1339,6 +1354,11 @@ public class Programa extends javax.swing.JFrame {
         jToggleButton65.setBorder(null);
         jToggleButton65.setHideActionText(true);
         jToggleButton65.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jToggleButton65.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButton65ActionPerformed(evt);
+            }
+        });
 
         jToggleButton66.setBackground(new java.awt.Color(74, 18, 32));
         buttonGroupLateral.add(jToggleButton66);
@@ -1348,6 +1368,11 @@ public class Programa extends javax.swing.JFrame {
         jToggleButton66.setBorder(null);
         jToggleButton66.setHideActionText(true);
         jToggleButton66.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jToggleButton66.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButton66ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
         jPanel11.setLayout(jPanel11Layout);
@@ -1398,6 +1423,11 @@ public class Programa extends javax.swing.JFrame {
         jButton17.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
         jButton17.setForeground(new java.awt.Color(255, 255, 255));
         jButton17.setText("Modificar");
+        jButton17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton17ActionPerformed(evt);
+            }
+        });
 
         jLabel28.setFont(new java.awt.Font("Sitka Text", 1, 24)); // NOI18N
         jLabel28.setText("Gestión de Usuario");
@@ -1419,6 +1449,11 @@ public class Programa extends javax.swing.JFrame {
         jButton19.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
         jButton19.setForeground(new java.awt.Color(255, 255, 255));
         jButton19.setText("Activar o desactivar");
+        jButton19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton19ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jFrameUsuarioLayout = new javax.swing.GroupLayout(jFrameUsuario.getContentPane());
         jFrameUsuario.getContentPane().setLayout(jFrameUsuarioLayout);
@@ -1888,6 +1923,10 @@ public class Programa extends javax.swing.JFrame {
 
     private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
         // TODO add your handling code here:
+        jDialog2.setModal(true);
+        jDialog2.pack();
+        jDialog2.setLocationRelativeTo(jFrameUsuario);
+        jDialog2.setVisible(true);
     }//GEN-LAST:event_jButton16ActionPerformed
 
     private void jToggleButton35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton35ActionPerformed
@@ -1900,9 +1939,15 @@ public class Programa extends javax.swing.JFrame {
 
     private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
         // TODO add your handling code here:
+        jDialog1.setVisible(false);
     }//GEN-LAST:event_jButton22ActionPerformed
 
     private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
+        if (jPasswordField1.getPassword().length == 0 || jTextField13.getText().trim().isEmpty()) {
+            javax.swing.JOptionPane.showMessageDialog(jDialog1, "Escribe usuario y contraseña del administrador.");
+            return;
+        }
+        jDialog1.setVisible(false);
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton21ActionPerformed
 
@@ -1912,10 +1957,12 @@ public class Programa extends javax.swing.JFrame {
 
     private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
         // TODO add your handling code here:
+        jDialog2.setVisible(false);
     }//GEN-LAST:event_jButton23ActionPerformed
 
     private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
         // TODO add your handling code here:
+        jDialog2.setVisible(false);
     }//GEN-LAST:event_jButton24ActionPerformed
 
     private void jTextField15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField15ActionPerformed
@@ -1933,6 +1980,68 @@ public class Programa extends javax.swing.JFrame {
     private void jTextField19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField19ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField19ActionPerformed
+
+    private void jToggleButton62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton62ActionPerformed
+        // TODO add your handling code here:}
+        jFrameIncidencia.pack();
+        jFrameIncidencia.setLocationRelativeTo(jFrameUsuario);
+        jToggleButton44.setSelected(true);
+        jFrameIncidencia.setVisible(true);
+        jFrameUsuario.setVisible(false);
+    }//GEN-LAST:event_jToggleButton62ActionPerformed
+
+    private void jToggleButton63ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton63ActionPerformed
+        jFrameReportes.pack();
+        jFrameReportes.setLocationRelativeTo(jFrameUsuario);
+        jToggleButton51.setSelected(true);
+        jFrameReportes.setVisible(true);
+        jFrameUsuario.setVisible(false);
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jToggleButton63ActionPerformed
+
+    private void jToggleButton64ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton64ActionPerformed
+        jFrameAlumnos.pack();
+        jFrameAlumnos.setLocationRelativeTo(jFrameUsuario);
+        jToggleButton58.setSelected(true);
+        jFrameAlumnos.setVisible(true);
+        jFrameUsuario.setVisible(false);
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jToggleButton64ActionPerformed
+
+    private void jToggleButton65ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton65ActionPerformed
+        // TODO add your handling code here:
+        JFrameHistorial.pack();
+        JFrameHistorial.setLocationRelativeTo(jFrameUsuario);
+        jToggleButton41.setSelected(true);
+        JFrameHistorial.setVisible(true);
+        jFrameUsuario.setVisible(false);
+    }//GEN-LAST:event_jToggleButton65ActionPerformed
+
+    private void jToggleButton66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton66ActionPerformed
+        this.setLocationRelativeTo(jFrameUsuario);
+        jToggleButton6.setSelected(true);
+        this.setVisible(true);
+        jFrameUsuario.setVisible(false);
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jToggleButton66ActionPerformed
+
+    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
+        // TODO add your handling code here:
+        jPasswordField1.setText("");
+        jDialog1.setModal(true);
+        jDialog1.pack();
+        jDialog1.setLocationRelativeTo(jFrameUsuario);
+        jDialog1.setVisible(true);
+    }//GEN-LAST:event_jButton17ActionPerformed
+
+    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
+        jPasswordField1.setText("");
+        jDialog1.setModal(true);
+        jDialog1.pack();
+        jDialog1.setLocationRelativeTo(jFrameUsuario);
+        jDialog1.setVisible(true);
+// TODO add your handling code here:
+    }//GEN-LAST:event_jButton19ActionPerformed
 
     /**
      * @param args the command line arguments
