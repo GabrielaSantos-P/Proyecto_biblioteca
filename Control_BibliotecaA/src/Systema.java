@@ -17,7 +17,7 @@ public class Systema extends javax.swing.JFrame {
 
     public Systema() {
         initComponents();
-        setSize(920, 600);
+       setSize(1010, 650);
         setLocationRelativeTo(null);
         cardLayout = (java.awt.CardLayout) panelContenido.getLayout();
 
@@ -30,6 +30,7 @@ public class Systema extends javax.swing.JFrame {
 
         cardLayout.show(panelContenido, "biblioteca");
         BTNbiblioteca2.setSelected(true);
+        marcarMenu(BTNbiblioteca2);
     }
 
     /**
@@ -1116,7 +1117,7 @@ public class Systema extends javax.swing.JFrame {
 
         getContentPane().add(panelContenido, java.awt.BorderLayout.CENTER);
 
-        jPanel3.setBackground(new java.awt.Color(86, 1, 5));
+        jPanel3.setBackground(new java.awt.Color(74, 18, 32));
         jPanel3.setForeground(new java.awt.Color(83, 0, 0));
 
         BTNusuarios2.setBackground(new java.awt.Color(74, 18, 32));
@@ -1125,6 +1126,8 @@ public class Systema extends javax.swing.JFrame {
         BTNusuarios2.setForeground(new java.awt.Color(255, 255, 255));
         BTNusuarios2.setText("Usuarios");
         BTNusuarios2.setBorder(null);
+        BTNusuarios2.setBorderPainted(false);
+        BTNusuarios2.setContentAreaFilled(false);
         BTNusuarios2.setHideActionText(true);
         BTNusuarios2.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         BTNusuarios2.addActionListener(new java.awt.event.ActionListener() {
@@ -1139,6 +1142,8 @@ public class Systema extends javax.swing.JFrame {
         BTNalumnos2.setForeground(new java.awt.Color(255, 255, 255));
         BTNalumnos2.setText("Alumnos");
         BTNalumnos2.setBorder(null);
+        BTNalumnos2.setBorderPainted(false);
+        BTNalumnos2.setContentAreaFilled(false);
         BTNalumnos2.setHideActionText(true);
         BTNalumnos2.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         BTNalumnos2.addActionListener(new java.awt.event.ActionListener() {
@@ -1153,6 +1158,8 @@ public class Systema extends javax.swing.JFrame {
         BTNreportes2.setForeground(new java.awt.Color(255, 255, 255));
         BTNreportes2.setText("Reportes");
         BTNreportes2.setBorder(null);
+        BTNreportes2.setBorderPainted(false);
+        BTNreportes2.setContentAreaFilled(false);
         BTNreportes2.setHideActionText(true);
         BTNreportes2.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         BTNreportes2.addActionListener(new java.awt.event.ActionListener() {
@@ -1167,6 +1174,8 @@ public class Systema extends javax.swing.JFrame {
         BTNincidencia2.setForeground(new java.awt.Color(255, 255, 255));
         BTNincidencia2.setText("Incidencia");
         BTNincidencia2.setBorder(null);
+        BTNincidencia2.setBorderPainted(false);
+        BTNincidencia2.setContentAreaFilled(false);
         BTNincidencia2.setHideActionText(true);
         BTNincidencia2.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         BTNincidencia2.addActionListener(new java.awt.event.ActionListener() {
@@ -1181,6 +1190,8 @@ public class Systema extends javax.swing.JFrame {
         BTNhistorial2.setForeground(new java.awt.Color(255, 255, 255));
         BTNhistorial2.setText("Historial");
         BTNhistorial2.setBorder(null);
+        BTNhistorial2.setBorderPainted(false);
+        BTNhistorial2.setContentAreaFilled(false);
         BTNhistorial2.setHideActionText(true);
         BTNhistorial2.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         BTNhistorial2.addActionListener(new java.awt.event.ActionListener() {
@@ -1195,6 +1206,8 @@ public class Systema extends javax.swing.JFrame {
         BTNbiblioteca2.setForeground(new java.awt.Color(255, 255, 255));
         BTNbiblioteca2.setText("En biblioteca ");
         BTNbiblioteca2.setBorder(null);
+        BTNbiblioteca2.setBorderPainted(false);
+        BTNbiblioteca2.setContentAreaFilled(false);
         BTNbiblioteca2.setHideActionText(true);
         BTNbiblioteca2.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         BTNbiblioteca2.addActionListener(new java.awt.event.ActionListener() {
@@ -1246,29 +1259,33 @@ public class Systema extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void BTNusuarios2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTNusuarios2ActionPerformed
-        cardLayout.show(panelContenido, "usuarios");    // TODO add your handling code here:
+        cardLayout.show(panelContenido, "usuarios");  
+         marcarMenu(BTNusuarios2);// TODO add your handling code here:
     }//GEN-LAST:event_BTNusuarios2ActionPerformed
 
     private void BTNalumnos2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTNalumnos2ActionPerformed
-        cardLayout.show(panelContenido, "alumnos");  // TODO add your handling code here:
+        cardLayout.show(panelContenido, "alumnos");  
+marcarMenu(BTNalumnos2);// TODO add your handling code here:
     }//GEN-LAST:event_BTNalumnos2ActionPerformed
 
     private void BTNreportes2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTNreportes2ActionPerformed
-        cardLayout.show(panelContenido, "reportes");  // TODO add your handling code here:
+        cardLayout.show(panelContenido, "reportes");
+        marcarMenu(BTNreportes2);// TODO add your handling code here:
     }//GEN-LAST:event_BTNreportes2ActionPerformed
 
     private void BTNincidencia2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTNincidencia2ActionPerformed
-        cardLayout.show(panelContenido, "incidencia");       // TODO add your handling code here:
+        cardLayout.show(panelContenido, "incidencia"); 
+        marcarMenu(BTNincidencia2);// TODO add your handling code here:
     }//GEN-LAST:event_BTNincidencia2ActionPerformed
 
     private void BTNhistorial2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTNhistorial2ActionPerformed
         cardLayout.show(panelContenido, "historial");
-        // TODO add your handling code here:
+        marcarMenu(BTNhistorial2);// TODO add your handling code here:
     }//GEN-LAST:event_BTNhistorial2ActionPerformed
 
     private void BTNbiblioteca2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTNbiblioteca2ActionPerformed
         cardLayout.show(panelContenido, "biblioteca");
-        // TODO add your handling code here:
+        marcarMenu(BTNbiblioteca2);// TODO add your handling code here:
     }//GEN-LAST:event_BTNbiblioteca2ActionPerformed
 
     private void jTextField6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField6ActionPerformed
@@ -1344,8 +1361,8 @@ public class Systema extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton23ActionPerformed
 
     private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
-           jDialog2.setVisible(false);
-           // TODO add your handling code here:
+        jDialog2.setVisible(false);
+        // TODO add your handling code here:
     }//GEN-LAST:event_jButton24ActionPerformed
 
     private void jTextField15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField15ActionPerformed
@@ -1372,29 +1389,23 @@ public class Systema extends javax.swing.JFrame {
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Systema.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Systema.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Systema.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Systema.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
+        // color de acento guinda para foco y selección
+        com.formdev.flatlaf.FlatLaf.setGlobalExtraDefaults(
+                java.util.Collections.singletonMap("@accentColor", "#7A1F35"));
+        com.formdev.flatlaf.FlatLightLaf.setup();
 
+// esquinas redondeadas
+        javax.swing.UIManager.put("Button.arc", 12);
+        javax.swing.UIManager.put("Component.arc", 12);
+        javax.swing.UIManager.put("TextComponent.arc", 12);
+        javax.swing.UIManager.put("Table.rowHeight", 28);
+        javax.swing.UIManager.put("Table.alternateRowColor", new java.awt.Color(248, 242, 244));
+        javax.swing.UIManager.put("Table.selectionBackground", new java.awt.Color(122, 31, 53));
+        javax.swing.UIManager.put("Table.selectionForeground", java.awt.Color.WHITE);
+        javax.swing.UIManager.put("TableHeader.background", new java.awt.Color(74, 18, 32));
+        javax.swing.UIManager.put("TableHeader.foreground", java.awt.Color.WHITE);
+javax.swing.UIManager.put("ToggleButton.selectedBackground", new java.awt.Color(122, 31, 53));
+javax.swing.UIManager.put("ToggleButton.selectedForeground", java.awt.Color.WHITE);
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
@@ -1402,7 +1413,22 @@ public class Systema extends javax.swing.JFrame {
             }
         });
     }
-
+private void marcarMenu(javax.swing.JToggleButton activo) {
+    javax.swing.JToggleButton[] botones = {
+        BTNbiblioteca2, BTNhistorial2, BTNincidencia2,
+        BTNreportes2, BTNalumnos2, BTNusuarios2
+    };
+    for (javax.swing.JToggleButton b : botones) {
+        boolean seleccionado = (b == activo);
+        if (seleccionado) {
+            b.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 4, 0, 0, java.awt.Color.WHITE));
+            b.setForeground(java.awt.Color.WHITE);
+        } else {
+            b.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 4, 0, 0));
+            b.setForeground(new java.awt.Color(225, 195, 200));
+        }
+    }
+}
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JToggleButton BTNalumnos;
     private javax.swing.JToggleButton BTNalumnos1;
