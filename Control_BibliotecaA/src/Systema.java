@@ -1307,7 +1307,7 @@ marcarMenu(BTNalumnos2);// TODO add your handling code here:
         cardLayout.show(panelContenido, "historial");
         marcarMenu(BTNhistorial2);// TODO add your handling code here:
     }//GEN-LAST:event_BTNhistorial2ActionPerformed
-
+//jjhjk
     private void BTNbiblioteca2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTNbiblioteca2ActionPerformed
         cardLayout.show(panelContenido, "biblioteca");
         marcarMenu(BTNbiblioteca2);// TODO add your handling code here:
