@@ -6,8 +6,8 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author luzga
- */
+ * @author luzga 
+*/
 public class Systema extends javax.swing.JFrame {
 
     /**
@@ -427,6 +427,7 @@ public class Systema extends javax.swing.JFrame {
         jButton7.setBackground(new java.awt.Color(74, 18, 32));
         jButton7.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
         jButton7.setForeground(new java.awt.Color(255, 255, 255));
+        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/exportar-archivo.png"))); // NOI18N
         jButton7.setText("Exportar PDF");
         historial.add(jButton7);
         jButton7.setBounds(260, 400, 152, 40);
@@ -449,6 +450,7 @@ public class Systema extends javax.swing.JFrame {
         jButton8.setBackground(new java.awt.Color(74, 18, 32));
         jButton8.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
         jButton8.setForeground(new java.awt.Color(255, 255, 255));
+        jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/impresora.png"))); // NOI18N
         jButton8.setText("Imprimir");
         historial.add(jButton8);
         jButton8.setBounds(430, 400, 152, 40);
@@ -456,7 +458,7 @@ public class Systema extends javax.swing.JFrame {
         jButton3.setFont(new java.awt.Font("Amiri", 1, 18)); // NOI18N
         jButton3.setText("Buscar");
         historial.add(jButton3);
-        jButton3.setBounds(410, 80, 82, 40);
+        jButton3.setBounds(410, 80, 81, 40);
 
         jTextField1.setFont(new java.awt.Font("Amiri", 0, 14)); // NOI18N
         historial.add(jTextField1);
@@ -500,6 +502,7 @@ public class Systema extends javax.swing.JFrame {
         jButton9.setBackground(new java.awt.Color(74, 18, 32));
         jButton9.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
         jButton9.setForeground(new java.awt.Color(255, 255, 255));
+        jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/actualizar-flecha.png"))); // NOI18N
         jButton9.setText("Actualizar");
 
         jLabel15.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
@@ -508,7 +511,13 @@ public class Systema extends javax.swing.JFrame {
         jButton10.setBackground(new java.awt.Color(74, 18, 32));
         jButton10.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
         jButton10.setForeground(new java.awt.Color(255, 255, 255));
+        jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/impresora.png"))); // NOI18N
         jButton10.setText("Imprimir");
+        jButton10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton10ActionPerformed(evt);
+            }
+        });
 
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
@@ -623,6 +632,7 @@ public class Systema extends javax.swing.JFrame {
         jButton20.setBackground(new java.awt.Color(74, 18, 32));
         jButton20.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
         jButton20.setForeground(new java.awt.Color(255, 255, 255));
+        jButton20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/base-de-datos.png"))); // NOI18N
         jButton20.setText("Importar");
         jButton20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -707,6 +717,7 @@ public class Systema extends javax.swing.JFrame {
         jButton18.setBackground(new java.awt.Color(74, 18, 32));
         jButton18.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
         jButton18.setForeground(new java.awt.Color(255, 255, 255));
+        jButton18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/disco-flexible.png"))); // NOI18N
         jButton18.setText("Guardar");
         jButton18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -873,6 +884,7 @@ public class Systema extends javax.swing.JFrame {
         jButton5.setBackground(new java.awt.Color(74, 18, 32));
         jButton5.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
         jButton5.setForeground(new java.awt.Color(255, 255, 255));
+        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/actualizar-flecha.png"))); // NOI18N
         jButton5.setText("Actualizar");
 
         jLabel4.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
@@ -881,6 +893,7 @@ public class Systema extends javax.swing.JFrame {
         jButton6.setBackground(new java.awt.Color(74, 18, 32));
         jButton6.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
         jButton6.setForeground(new java.awt.Color(255, 255, 255));
+        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/impresora.png"))); // NOI18N
         jButton6.setText("Imprimir listado");
 
         javax.swing.GroupLayout bibliotecaLayout = new javax.swing.GroupLayout(biblioteca);
@@ -921,6 +934,7 @@ public class Systema extends javax.swing.JFrame {
         jButton12.setBackground(new java.awt.Color(74, 18, 32));
         jButton12.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
         jButton12.setForeground(new java.awt.Color(255, 255, 255));
+        jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/exportar-archivo.png"))); // NOI18N
         jButton12.setText("Exportar PDF");
 
         jLabel17.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
@@ -932,6 +946,7 @@ public class Systema extends javax.swing.JFrame {
         jButton13.setBackground(new java.awt.Color(74, 18, 32));
         jButton13.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
         jButton13.setForeground(new java.awt.Color(255, 255, 255));
+        jButton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/impresora.png"))); // NOI18N
         jButton13.setText("Imprimir");
 
         jTextField5.setFont(new java.awt.Font("Amiri", 0, 14)); // NOI18N
@@ -939,6 +954,7 @@ public class Systema extends javax.swing.JFrame {
         jButton14.setBackground(new java.awt.Color(74, 18, 32));
         jButton14.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
         jButton14.setForeground(new java.awt.Color(255, 255, 255));
+        jButton14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/consolidar.png"))); // NOI18N
         jButton14.setText("Consolidado por grupos");
 
         jTextField7.setFont(new java.awt.Font("Amiri", 0, 14)); // NOI18N
@@ -1038,6 +1054,7 @@ public class Systema extends javax.swing.JFrame {
         jButton16.setBackground(new java.awt.Color(74, 18, 32));
         jButton16.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
         jButton16.setForeground(new java.awt.Color(255, 255, 255));
+        jButton16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/agregar-usuario (1).png"))); // NOI18N
         jButton16.setText("Crear usuario");
         jButton16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1048,6 +1065,7 @@ public class Systema extends javax.swing.JFrame {
         jButton17.setBackground(new java.awt.Color(74, 18, 32));
         jButton17.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
         jButton17.setForeground(new java.awt.Color(255, 255, 255));
+        jButton17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/editar (1).png"))); // NOI18N
         jButton17.setText("Modificar");
         jButton17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1074,6 +1092,7 @@ public class Systema extends javax.swing.JFrame {
         jButton19.setBackground(new java.awt.Color(74, 18, 32));
         jButton19.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
         jButton19.setForeground(new java.awt.Color(255, 255, 255));
+        jButton19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/marea.png"))); // NOI18N
         jButton19.setText("Activar o desactivar");
         jButton19.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1124,7 +1143,8 @@ public class Systema extends javax.swing.JFrame {
         buttonGroup1.add(BTNusuarios2);
         BTNusuarios2.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         BTNusuarios2.setForeground(new java.awt.Color(255, 255, 255));
-        BTNusuarios2.setText("Usuarios");
+        BTNusuarios2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/perfil.png"))); // NOI18N
+        BTNusuarios2.setText("      Usuarios");
         BTNusuarios2.setBorder(null);
         BTNusuarios2.setBorderPainted(false);
         BTNusuarios2.setContentAreaFilled(false);
@@ -1140,7 +1160,8 @@ public class Systema extends javax.swing.JFrame {
         buttonGroup1.add(BTNalumnos2);
         BTNalumnos2.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         BTNalumnos2.setForeground(new java.awt.Color(255, 255, 255));
-        BTNalumnos2.setText("Alumnos");
+        BTNalumnos2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/graduado.png"))); // NOI18N
+        BTNalumnos2.setText("      Alumnos");
         BTNalumnos2.setBorder(null);
         BTNalumnos2.setBorderPainted(false);
         BTNalumnos2.setContentAreaFilled(false);
@@ -1156,7 +1177,8 @@ public class Systema extends javax.swing.JFrame {
         buttonGroup1.add(BTNreportes2);
         BTNreportes2.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         BTNreportes2.setForeground(new java.awt.Color(255, 255, 255));
-        BTNreportes2.setText("Reportes");
+        BTNreportes2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/reporte-de-negocios.png"))); // NOI18N
+        BTNreportes2.setText("      Reportes");
         BTNreportes2.setBorder(null);
         BTNreportes2.setBorderPainted(false);
         BTNreportes2.setContentAreaFilled(false);
@@ -1172,7 +1194,8 @@ public class Systema extends javax.swing.JFrame {
         buttonGroup1.add(BTNincidencia2);
         BTNincidencia2.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         BTNincidencia2.setForeground(new java.awt.Color(255, 255, 255));
-        BTNincidencia2.setText("Incidencia");
+        BTNincidencia2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/investigacion.png"))); // NOI18N
+        BTNincidencia2.setText("      Incidencia");
         BTNincidencia2.setBorder(null);
         BTNincidencia2.setBorderPainted(false);
         BTNincidencia2.setContentAreaFilled(false);
@@ -1188,7 +1211,8 @@ public class Systema extends javax.swing.JFrame {
         buttonGroup1.add(BTNhistorial2);
         BTNhistorial2.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         BTNhistorial2.setForeground(new java.awt.Color(255, 255, 255));
-        BTNhistorial2.setText("Historial");
+        BTNhistorial2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/historial-de-pedidos.png"))); // NOI18N
+        BTNhistorial2.setText("      Historial");
         BTNhistorial2.setBorder(null);
         BTNhistorial2.setBorderPainted(false);
         BTNhistorial2.setContentAreaFilled(false);
@@ -1204,7 +1228,8 @@ public class Systema extends javax.swing.JFrame {
         buttonGroup1.add(BTNbiblioteca2);
         BTNbiblioteca2.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         BTNbiblioteca2.setForeground(new java.awt.Color(255, 255, 255));
-        BTNbiblioteca2.setText("En biblioteca ");
+        BTNbiblioteca2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/biblioteca-en-linea.png"))); // NOI18N
+        BTNbiblioteca2.setText("     En biblioteca ");
         BTNbiblioteca2.setBorder(null);
         BTNbiblioteca2.setBorderPainted(false);
         BTNbiblioteca2.setContentAreaFilled(false);
@@ -1385,6 +1410,10 @@ marcarMenu(BTNalumnos2);// TODO add your handling code here:
         // TODO add your handling code here:
     }//GEN-LAST:event_jPasswordField1ActionPerformed
 
+    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton10ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -1430,23 +1459,11 @@ private void marcarMenu(javax.swing.JToggleButton activo) {
     }
 }
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JToggleButton BTNalumnos;
-    private javax.swing.JToggleButton BTNalumnos1;
     private javax.swing.JToggleButton BTNalumnos2;
-    private javax.swing.JToggleButton BTNbiblioteca;
-    private javax.swing.JToggleButton BTNbiblioteca1;
     private javax.swing.JToggleButton BTNbiblioteca2;
-    private javax.swing.JToggleButton BTNhistorial;
-    private javax.swing.JToggleButton BTNhistorial1;
     private javax.swing.JToggleButton BTNhistorial2;
-    private javax.swing.JToggleButton BTNincidencia;
-    private javax.swing.JToggleButton BTNincidencia1;
     private javax.swing.JToggleButton BTNincidencia2;
-    private javax.swing.JToggleButton BTNreportes;
-    private javax.swing.JToggleButton BTNreportes1;
     private javax.swing.JToggleButton BTNreportes2;
-    private javax.swing.JToggleButton BTNusuarios;
-    private javax.swing.JToggleButton BTNusuarios1;
     private javax.swing.JToggleButton BTNusuarios2;
     private javax.swing.JPanel alumnos;
     private javax.swing.JPanel biblioteca;
@@ -1519,10 +1536,8 @@ private void marcarMenu(javax.swing.JToggleButton activo) {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel9;
-    private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel12;
-    private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel9;
     private javax.swing.JPasswordField jPasswordField1;
