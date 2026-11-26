@@ -107,8 +107,8 @@ public class Systema extends javax.swing.JFrame {
         jLabel30 = new javax.swing.JLabel();
         jLabel31 = new javax.swing.JLabel();
         jComboBox4 = new javax.swing.JComboBox<>();
-        jComboBox5 = new javax.swing.JComboBox<>();
         jTextField16 = new javax.swing.JTextField();
+        jTextField21 = new javax.swing.JTextField();
         jPanel10 = new javax.swing.JPanel();
         jButton18 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
@@ -122,8 +122,9 @@ public class Systema extends javax.swing.JFrame {
         jTextField10 = new javax.swing.JTextField();
         jTextField11 = new javax.swing.JTextField();
         jComboBox2 = new javax.swing.JComboBox<>();
-        jComboBox3 = new javax.swing.JComboBox<>();
         jTextField12 = new javax.swing.JTextField();
+        GrupoAlta = new javax.swing.JTextField();
+        jTextField20 = new javax.swing.JTextField();
         biblioteca = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
         jScrollPane3 = new javax.swing.JScrollPane();
@@ -422,7 +423,7 @@ public class Systema extends javax.swing.JFrame {
         jLabel6.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
         jLabel6.setText("Fecha");
         historial.add(jLabel6);
-        jLabel6.setBounds(103, 43, 90, 33);
+        jLabel6.setBounds(103, 43, 90, 26);
 
         jButton7.setBackground(new java.awt.Color(74, 18, 32));
         jButton7.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
@@ -430,22 +431,22 @@ public class Systema extends javax.swing.JFrame {
         jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/exportar-archivo.png"))); // NOI18N
         jButton7.setText("Exportar PDF");
         historial.add(jButton7);
-        jButton7.setBounds(260, 400, 152, 40);
+        jButton7.setBounds(260, 400, 152, 32);
 
         jLabel7.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
         jLabel7.setText("Carrera");
         historial.add(jLabel7);
-        jLabel7.setBounds(199, 43, 91, 33);
+        jLabel7.setBounds(199, 43, 91, 26);
 
         jLabel5.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
         jLabel5.setText("Matrícula");
         historial.add(jLabel5);
-        jLabel5.setBounds(6, 43, 91, 33);
+        jLabel5.setBounds(6, 43, 91, 26);
 
         jLabel9.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
         jLabel9.setText("Grupo");
         historial.add(jLabel9);
-        jLabel9.setBounds(296, 43, 91, 33);
+        jLabel9.setBounds(296, 43, 91, 26);
 
         jButton8.setBackground(new java.awt.Color(74, 18, 32));
         jButton8.setFont(new java.awt.Font("Amiri", 0, 18)); // NOI18N
@@ -453,33 +454,33 @@ public class Systema extends javax.swing.JFrame {
         jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/impresora.png"))); // NOI18N
         jButton8.setText("Imprimir");
         historial.add(jButton8);
-        jButton8.setBounds(430, 400, 152, 40);
+        jButton8.setBounds(430, 400, 152, 32);
 
         jButton3.setFont(new java.awt.Font("Amiri", 1, 18)); // NOI18N
         jButton3.setText("Buscar");
         historial.add(jButton3);
-        jButton3.setBounds(410, 80, 81, 40);
+        jButton3.setBounds(410, 80, 91, 32);
 
         jTextField1.setFont(new java.awt.Font("Amiri", 0, 14)); // NOI18N
         historial.add(jTextField1);
-        jTextField1.setBounds(0, 80, 91, 31);
+        jTextField1.setBounds(0, 80, 91, 26);
 
         jTextField2.setFont(new java.awt.Font("Amiri", 0, 14)); // NOI18N
         historial.add(jTextField2);
-        jTextField2.setBounds(100, 80, 90, 31);
+        jTextField2.setBounds(100, 80, 90, 26);
 
         jTextField3.setFont(new java.awt.Font("Amiri", 0, 14)); // NOI18N
         historial.add(jTextField3);
-        jTextField3.setBounds(200, 80, 91, 31);
+        jTextField3.setBounds(200, 80, 91, 26);
 
         jTextField4.setFont(new java.awt.Font("Amiri", 0, 14)); // NOI18N
         historial.add(jTextField4);
-        jTextField4.setBounds(300, 80, 91, 31);
+        jTextField4.setBounds(300, 80, 91, 26);
 
         jLabel11.setFont(new java.awt.Font("Sitka Text", 1, 24)); // NOI18N
         jLabel11.setText("Historial de accesos");
         historial.add(jLabel11);
-        jLabel11.setBounds(6, 6, 302, 31);
+        jLabel11.setBounds(6, 6, 302, 33);
 
         jTable4.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -564,13 +565,6 @@ public class Systema extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(incidenciaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(incidenciaLayout.createSequentialGroup()
-                        .addComponent(jComboBox1, 0, 279, Short.MAX_VALUE)
-                        .addGap(31, 31, 31)
-                        .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, 185, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 54, Short.MAX_VALUE)
-                        .addComponent(jButton4)
-                        .addGap(58, 58, 58))
-                    .addGroup(incidenciaLayout.createSequentialGroup()
                         .addGroup(incidenciaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(incidenciaLayout.createSequentialGroup()
                                 .addGap(244, 244, 244)
@@ -579,22 +573,33 @@ public class Systema extends javax.swing.JFrame {
                                 .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addComponent(jScrollPane5)
                             .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 566, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(incidenciaLayout.createSequentialGroup()
+                        .addComponent(jComboBox1, 0, 276, Short.MAX_VALUE)
+                        .addGap(31, 31, 31)
+                        .addGroup(incidenciaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(incidenciaLayout.createSequentialGroup()
+                                .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 185, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addGroup(incidenciaLayout.createSequentialGroup()
+                                .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, 185, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 53, Short.MAX_VALUE)
+                                .addComponent(jButton4)
+                                .addGap(58, 58, 58))))))
             .addGroup(incidenciaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(incidenciaLayout.createSequentialGroup()
                     .addContainerGap()
                     .addGroup(incidenciaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(incidenciaLayout.createSequentialGroup()
-                            .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 195, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(31, 31, 31)
-                            .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 185, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 195, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 302, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addContainerGap(268, Short.MAX_VALUE)))
+                    .addContainerGap(377, Short.MAX_VALUE)))
         );
         incidenciaLayout.setVerticalGroup(
             incidenciaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(incidenciaLayout.createSequentialGroup()
-                .addGap(82, 82, 82)
+                .addGap(39, 39, 39)
+                .addComponent(jLabel13)
+                .addGap(18, 18, 18)
                 .addGroup(incidenciaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(incidenciaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -610,15 +615,13 @@ public class Systema extends javax.swing.JFrame {
                 .addGroup(incidenciaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton9)
                     .addComponent(jButton10))
-                .addContainerGap(588, Short.MAX_VALUE))
+                .addContainerGap(590, Short.MAX_VALUE))
             .addGroup(incidenciaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(incidenciaLayout.createSequentialGroup()
                     .addContainerGap()
                     .addComponent(jLabel12)
                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addGroup(incidenciaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(jLabel15)
-                        .addComponent(jLabel13))
+                    .addComponent(jLabel15)
                     .addContainerGap(929, Short.MAX_VALUE)))
         );
 
@@ -650,18 +653,15 @@ public class Systema extends javax.swing.JFrame {
         jLabel30.setText("Archivo");
 
         jLabel31.setFont(new java.awt.Font("Amiri", 0, 14)); // NOI18N
-        jLabel31.setText("Semestre o grupo");
+        jLabel31.setText("Semestre y grupo");
 
         jComboBox4.setFont(new java.awt.Font("Amiri", 0, 14)); // NOI18N
-        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Administración Pública", "Ciencias Biomédicas", "Ciencias Empresariales", "Enfermería", "Gobierno y Desarrollo Municipal (Administración Municipal)", "Informática", "Medicina", "Nutrición", "Odontología" }));
         jComboBox4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBox4ActionPerformed(evt);
             }
         });
-
-        jComboBox5.setFont(new java.awt.Font("Amiri", 0, 14)); // NOI18N
-        jComboBox5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         jTextField16.setFont(new java.awt.Font("Amiri", 0, 14)); // NOI18N
 
@@ -669,26 +669,25 @@ public class Systema extends javax.swing.JFrame {
         jPanel12.setLayout(jPanel12Layout);
         jPanel12Layout.setHorizontalGroup(
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel12Layout.createSequentialGroup()
-                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel12Layout.createSequentialGroup()
-                        .addGap(6, 6, 6)
-                        .addComponent(jLabel25, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel12Layout.createSequentialGroup()
-                        .addGap(18, 18, 18)
-                        .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel30, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jTextField16, javax.swing.GroupLayout.PREFERRED_SIZE, 236, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel29, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel31, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(jComboBox5, javax.swing.GroupLayout.Alignment.LEADING, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jComboBox4, javax.swing.GroupLayout.Alignment.LEADING, 0, 225, Short.MAX_VALUE)))))
-                .addContainerGap(36, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel12Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(jButton20, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(62, 62, 62))
+            .addGroup(jPanel12Layout.createSequentialGroup()
+                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel12Layout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel30, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jTextField16, javax.swing.GroupLayout.DEFAULT_SIZE, 236, Short.MAX_VALUE)
+                            .addComponent(jLabel29, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel31, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jTextField21)
+                            .addComponent(jComboBox4, 0, 0, Short.MAX_VALUE)))
+                    .addGroup(jPanel12Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jLabel25, javax.swing.GroupLayout.PREFERRED_SIZE, 214, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(36, Short.MAX_VALUE))
         );
         jPanel12Layout.setVerticalGroup(
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -701,9 +700,9 @@ public class Systema extends javax.swing.JFrame {
                 .addComponent(jComboBox4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(28, 28, 28)
                 .addComponent(jLabel31)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jComboBox5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(27, 27, 27)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jTextField21, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
                 .addComponent(jLabel30)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jTextField16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -758,10 +757,7 @@ public class Systema extends javax.swing.JFrame {
         jTextField11.setFont(new java.awt.Font("Amiri", 0, 14)); // NOI18N
 
         jComboBox2.setFont(new java.awt.Font("Amiri", 0, 14)); // NOI18N
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-
-        jComboBox3.setFont(new java.awt.Font("Amiri", 0, 14)); // NOI18N
-        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Administración Pública", "Ciencias Biomédicas", "Ciencias Empresariales", "Enfermería", "Gobierno y Desarrollo Municipal (Administración Municipal)", "Informática", "Medicina", "Nutrición", "Odontología" }));
 
         jTextField12.setFont(new java.awt.Font("Amiri", 0, 14)); // NOI18N
 
@@ -770,7 +766,7 @@ public class Systema extends javax.swing.JFrame {
         jPanel10Layout.setHorizontalGroup(
             jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel10Layout.createSequentialGroup()
-                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(jPanel10Layout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -791,11 +787,13 @@ public class Systema extends javax.swing.JFrame {
                             .addComponent(jTextField10)
                             .addComponent(jTextField11)
                             .addComponent(jComboBox2, 0, 225, Short.MAX_VALUE)
-                            .addComponent(jComboBox3, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jTextField12)))
                     .addGroup(jPanel10Layout.createSequentialGroup()
                         .addGap(61, 61, 61)
-                        .addComponent(jButton18, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(jButton18, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel10Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(GrupoAlta)))
                 .addContainerGap(75, Short.MAX_VALUE))
         );
         jPanel10Layout.setVerticalGroup(
@@ -821,8 +819,8 @@ public class Systema extends javax.swing.JFrame {
                 .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel24)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jComboBox3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(9, 9, 9)
+                .addComponent(GrupoAlta, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel23)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -832,11 +830,16 @@ public class Systema extends javax.swing.JFrame {
                 .addContainerGap(18, Short.MAX_VALUE))
         );
 
+        jTextField20.setText("jTextField20");
+
         javax.swing.GroupLayout alumnosLayout = new javax.swing.GroupLayout(alumnos);
         alumnos.setLayout(alumnosLayout);
         alumnosLayout.setHorizontalGroup(
             alumnosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 685, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, alumnosLayout.createSequentialGroup()
+                .addContainerGap(403, Short.MAX_VALUE)
+                .addComponent(jTextField20, javax.swing.GroupLayout.PREFERRED_SIZE, 227, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(55, 55, 55))
             .addGroup(alumnosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(alumnosLayout.createSequentialGroup()
                     .addContainerGap()
@@ -851,7 +854,10 @@ public class Systema extends javax.swing.JFrame {
         );
         alumnosLayout.setVerticalGroup(
             alumnosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1005, Short.MAX_VALUE)
+            .addGroup(alumnosLayout.createSequentialGroup()
+                .addGap(242, 242, 242)
+                .addComponent(jTextField20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(740, Short.MAX_VALUE))
             .addGroup(alumnosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(alumnosLayout.createSequentialGroup()
                     .addContainerGap()
@@ -860,7 +866,7 @@ public class Systema extends javax.swing.JFrame {
                     .addGroup(alumnosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addComponent(jPanel12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jPanel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addContainerGap(407, Short.MAX_VALUE)))
+                    .addContainerGap(480, Short.MAX_VALUE)))
         );
 
         panelContenido.add(alumnos, "card7");
@@ -905,12 +911,12 @@ public class Systema extends javax.swing.JFrame {
                 .addGroup(bibliotecaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 302, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(bibliotecaLayout.createSequentialGroup()
-                        .addGap(244, 244, 244)
-                        .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 566, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(bibliotecaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addGroup(bibliotecaLayout.createSequentialGroup()
+                            .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(29, 29, 29)
+                            .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jScrollPane3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 566, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(113, Short.MAX_VALUE))
         );
         bibliotecaLayout.setVerticalGroup(
@@ -993,8 +999,8 @@ public class Systema extends javax.swing.JFrame {
                     .addGroup(reportesLayout.createSequentialGroup()
                         .addComponent(jButton14)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jButton13, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(reportesLayout.createSequentialGroup()
                         .addComponent(jTextField5)
@@ -1017,7 +1023,7 @@ public class Systema extends javax.swing.JFrame {
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                             .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 388, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addContainerGap(276, Short.MAX_VALUE)))
+                    .addContainerGap(309, Short.MAX_VALUE)))
         );
         reportesLayout.setVerticalGroup(
             reportesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1035,7 +1041,7 @@ public class Systema extends javax.swing.JFrame {
                     .addComponent(jButton14)
                     .addComponent(jButton12)
                     .addComponent(jButton13))
-                .addContainerGap(579, Short.MAX_VALUE))
+                .addContainerGap(595, Short.MAX_VALUE))
             .addGroup(reportesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(reportesLayout.createSequentialGroup()
                     .addContainerGap()
@@ -1115,7 +1121,7 @@ public class Systema extends javax.swing.JFrame {
                         .addComponent(jButton19))
                     .addComponent(jLabel28, javax.swing.GroupLayout.PREFERRED_SIZE, 302, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 539, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(121, Short.MAX_VALUE))
+                .addContainerGap(115, Short.MAX_VALUE))
         );
         jPanel9Layout.setVerticalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1465,6 +1471,7 @@ private void marcarMenu(javax.swing.JToggleButton activo) {
     private javax.swing.JToggleButton BTNincidencia2;
     private javax.swing.JToggleButton BTNreportes2;
     private javax.swing.JToggleButton BTNusuarios2;
+    private javax.swing.JTextField GrupoAlta;
     private javax.swing.JPanel alumnos;
     private javax.swing.JPanel biblioteca;
     private javax.swing.ButtonGroup buttonGroup1;
@@ -1493,9 +1500,7 @@ private void marcarMenu(javax.swing.JToggleButton activo) {
     private javax.swing.JButton jButton9;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JComboBox<String> jComboBox2;
-    private javax.swing.JComboBox<String> jComboBox3;
     private javax.swing.JComboBox<String> jComboBox4;
-    private javax.swing.JComboBox<String> jComboBox5;
     private javax.swing.JDialog jDialog1;
     private javax.swing.JDialog jDialog2;
     private javax.swing.JFrame jFrame1;
@@ -1567,6 +1572,8 @@ private void marcarMenu(javax.swing.JToggleButton activo) {
     private javax.swing.JTextField jTextField18;
     private javax.swing.JTextField jTextField19;
     private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextField jTextField20;
+    private javax.swing.JTextField jTextField21;
     private javax.swing.JTextField jTextField3;
     private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField5;
