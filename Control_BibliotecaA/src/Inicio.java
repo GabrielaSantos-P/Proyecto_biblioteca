@@ -1,3 +1,7 @@
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
@@ -209,24 +213,40 @@ public class Inicio extends javax.swing.JFrame {
     }//GEN-LAST:event_UsuarioActionPerformed
 
     private void BTNIngresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTNIngresarActionPerformed
-////      
-////    String usuario = Usuario.getText();
-////    String contraseña = new String(Contraseña.getPassword());
-////
-////    if (usuario.equals("admin") && contraseña.equals("1234")) {
-////
-////        Programa ventana = new Programa();
-////        ventana.setVisible(true);
-////        this.dispose();
-////
-////    } else {
-////        javax.swing.JOptionPane.showMessageDialog(
-////            this,
-////            "Usuario o contraseña incorrectos"
-////        );
-////    }   
+      
+    String usuario = Usuario.getText();
+    String contraseña = new String(Contraseña.getPassword());
 
+    if (usuario.equals("admin") && contraseña.equals("1234")) {
 
+        Systema ventana = new Systema();
+        ventana.setVisible(true);
+        this.dispose();
+
+    } else {
+        javax.swing.JOptionPane.showMessageDialog(
+            this,
+            "Usuario o contraseña incorrectos"
+        );
+    }   
+
+Connection con = Conexion.conectar();
+
+        if (con != null) {
+
+            System.out.println("CONEXION EXITOSA");
+            System.out.println("Java esta conectado a PostgreSQL");
+
+            try {
+                con.close();
+            } catch (SQLException e) {
+                System.out.println(e.getMessage());
+            }
+
+        } else {
+
+            System.out.println("NO SE PUDO CONECTAR");
+        }
 
 
 
