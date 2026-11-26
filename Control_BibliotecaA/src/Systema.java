@@ -575,7 +575,7 @@ public class Systema extends javax.swing.JFrame {
                             .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 566, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(incidenciaLayout.createSequentialGroup()
-                        .addComponent(jComboBox1, 0, 276, Short.MAX_VALUE)
+                        .addComponent(jComboBox1, 0, 289, Short.MAX_VALUE)
                         .addGap(31, 31, 31)
                         .addGroup(incidenciaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(incidenciaLayout.createSequentialGroup()
@@ -583,7 +583,7 @@ public class Systema extends javax.swing.JFrame {
                                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                             .addGroup(incidenciaLayout.createSequentialGroup()
                                 .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, 185, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 53, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 67, Short.MAX_VALUE)
                                 .addComponent(jButton4)
                                 .addGap(58, 58, 58))))))
             .addGroup(incidenciaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -592,14 +592,13 @@ public class Systema extends javax.swing.JFrame {
                     .addGroup(incidenciaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 195, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 302, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addContainerGap(377, Short.MAX_VALUE)))
+                    .addContainerGap(404, Short.MAX_VALUE)))
         );
         incidenciaLayout.setVerticalGroup(
             incidenciaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(incidenciaLayout.createSequentialGroup()
                 .addGap(39, 39, 39)
                 .addComponent(jLabel13)
-                .addGap(18, 18, 18)
                 .addGroup(incidenciaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(incidenciaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -615,7 +614,7 @@ public class Systema extends javax.swing.JFrame {
                 .addGroup(incidenciaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton9)
                     .addComponent(jButton10))
-                .addContainerGap(590, Short.MAX_VALUE))
+                .addContainerGap(613, Short.MAX_VALUE))
             .addGroup(incidenciaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(incidenciaLayout.createSequentialGroup()
                     .addContainerGap()
@@ -837,7 +836,7 @@ public class Systema extends javax.swing.JFrame {
         alumnosLayout.setHorizontalGroup(
             alumnosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, alumnosLayout.createSequentialGroup()
-                .addContainerGap(403, Short.MAX_VALUE)
+                .addContainerGap(430, Short.MAX_VALUE)
                 .addComponent(jTextField20, javax.swing.GroupLayout.PREFERRED_SIZE, 227, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(55, 55, 55))
             .addGroup(alumnosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -917,7 +916,7 @@ public class Systema extends javax.swing.JFrame {
                             .addGap(29, 29, 29)
                             .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addComponent(jScrollPane3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 566, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(113, Short.MAX_VALUE))
+                .addContainerGap(140, Short.MAX_VALUE))
         );
         bibliotecaLayout.setVerticalGroup(
             bibliotecaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1121,7 +1120,7 @@ public class Systema extends javax.swing.JFrame {
                         .addComponent(jButton19))
                     .addComponent(jLabel28, javax.swing.GroupLayout.PREFERRED_SIZE, 302, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 539, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(115, Short.MAX_VALUE))
+                .addContainerGap(142, Short.MAX_VALUE))
         );
         jPanel9Layout.setVerticalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1218,7 +1217,7 @@ public class Systema extends javax.swing.JFrame {
         BTNhistorial2.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         BTNhistorial2.setForeground(new java.awt.Color(255, 255, 255));
         BTNhistorial2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/historial-de-pedidos.png"))); // NOI18N
-        BTNhistorial2.setText("      Historial");
+        BTNhistorial2.setText("Historial");
         BTNhistorial2.setBorder(null);
         BTNhistorial2.setBorderPainted(false);
         BTNhistorial2.setContentAreaFilled(false);
@@ -1235,7 +1234,7 @@ public class Systema extends javax.swing.JFrame {
         BTNbiblioteca2.setFont(new java.awt.Font("Amiri", 1, 14)); // NOI18N
         BTNbiblioteca2.setForeground(new java.awt.Color(255, 255, 255));
         BTNbiblioteca2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/biblioteca-en-linea.png"))); // NOI18N
-        BTNbiblioteca2.setText("     En biblioteca ");
+        BTNbiblioteca2.setText("     En biblioteca   ctrl+B");
         BTNbiblioteca2.setBorder(null);
         BTNbiblioteca2.setBorderPainted(false);
         BTNbiblioteca2.setContentAreaFilled(false);
@@ -1258,11 +1257,8 @@ public class Systema extends javax.swing.JFrame {
                     .addComponent(BTNincidencia2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(BTNalumnos2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(BTNhistorial2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(BTNreportes2, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(BTNbiblioteca2, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(0, 6, Short.MAX_VALUE)))
+                    .addComponent(BTNbiblioteca2, javax.swing.GroupLayout.DEFAULT_SIZE, 208, Short.MAX_VALUE)
+                    .addComponent(BTNreportes2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         jPanel3Layout.setVerticalGroup(
