@@ -8,6 +8,11 @@ import javax.swing.JOptionPane;
  *
  * @author luzga 
 */
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import javax.swing.table.DefaultTableModel;
 public class Systema extends javax.swing.JFrame {
 
     /**
@@ -31,6 +36,38 @@ public class Systema extends javax.swing.JFrame {
         cardLayout.show(panelContenido, "biblioteca");
         BTNbiblioteca2.setSelected(true);
         marcarMenu(BTNbiblioteca2);
+        cargarTablaAlumnos();
+        jButton9.addActionListener(e -> cargarTablaAlumnos());
+    }
+    public void cargarTablaAlumnos() {
+        DefaultTableModel modelo = (DefaultTableModel) jTable8.getModel();
+        modelo.setRowCount(0);
+
+        String sql = "SELECT matricula, nombre, apellido_paterno, apellido_materno, licenciatura, semestre, grupo "
+                   + "FROM alumno ORDER BY apellido_paterno ASC";
+
+        try (Connection con = Conexion.conectar()) {
+            if (con == null) {
+                return;
+            }
+            try (PreparedStatement ps = con.prepareStatement(sql);
+                 ResultSet rs = ps.executeQuery()) {
+
+                while (rs.next()) {
+                    Object[] fila = new Object[7];
+                    fila[0] = rs.getString("matricula");
+                    fila[1] = rs.getString("nombre");
+                    fila[2] = rs.getString("apellido_paterno");
+                    fila[3] = rs.getString("apellido_materno");
+                    fila[4] = rs.getString("licenciatura");
+                    fila[5] = rs.getString("semestre");
+                    fila[6] = rs.getString("grupo");
+                    modelo.addRow(fila);
+                }
+            }
+        } catch (SQLException e) {
+            JOptionPane.showMessageDialog(this, "Error al cargar alumnos: " + e.getMessage(), "Error SQL", JOptionPane.ERROR_MESSAGE);
+        }
     }
 
     /**
@@ -1513,7 +1550,61 @@ marcarMenu(BTNalumnos2);// TODO add your handling code here:
     }//GEN-LAST:event_jComboBox4ActionPerformed
 
     private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
-        // TODO add your handling code here:
+String matricula = jTextField9.getText().trim();
+        String nombre = jTextField10.getText().trim();
+        String apellidos = jTextField11.getText().trim();
+        String carrera = jComboBox2.getSelectedItem() != null ? jComboBox2.getSelectedItem().toString() : "";
+        String grupo = GrupoAlta.getText().trim();
+        String idCredencial = jTextField12.getText().trim();
+
+        if (matricula.isEmpty() || nombre.isEmpty() || apellidos.isEmpty() || grupo.isEmpty()) {
+            JOptionPane.showMessageDialog(this, "Completa Matrícula, Nombre, Apellidos y Grupo.", "Campos obligatorios", JOptionPane.WARNING_MESSAGE);
+            return;
+        }
+
+        // Separa primer apellido y segundo apellido
+        String[] partesApellidos = apellidos.split("\\s+", 2);
+        String apellidoPaterno = partesApellidos[0];
+        String apellidoMaterno = (partesApellidos.length > 1) ? partesApellidos[1] : "";
+
+        String sql = "INSERT INTO alumno (matricula, nombre, apellido_paterno, apellido_materno, licenciatura, grupo, id_credencial) "
+                   + "VALUES (?, ?, ?, ?, ?, ?, ?)";
+
+        try (Connection con = Conexion.conectar()) {
+            if (con == null) {
+                JOptionPane.showMessageDialog(this, "No se pudo conectar con la base de datos.", "Error de conexión", JOptionPane.ERROR_MESSAGE);
+                return;
+            }
+            try (PreparedStatement ps = con.prepareStatement(sql)) {
+                ps.setString(1, matricula);
+                ps.setString(2, nombre);
+                ps.setString(3, apellidoPaterno);
+                ps.setString(4, apellidoMaterno);
+                ps.setString(5, carrera);
+                ps.setString(6, grupo);
+
+                if (idCredencial.isEmpty()) {
+                    ps.setNull(7, java.sql.Types.VARCHAR);
+                } else {
+                    ps.setString(7, idCredencial);
+                }
+
+                ps.executeUpdate();
+                JOptionPane.showMessageDialog(this, "Alumno registrado correctamente.");
+
+                // Limpiar formulario
+                jTextField9.setText("");
+                jTextField10.setText("");
+                jTextField11.setText("");
+                GrupoAlta.setText("");
+                jTextField12.setText("");
+
+                // Refrescar la tabla de Alumnos Registrados
+                cargarTablaAlumnos();
+            }
+        } catch (SQLException e) {
+            JOptionPane.showMessageDialog(this, "Error al guardar el alumno: " + e.getMessage(), "Error SQL", JOptionPane.ERROR_MESSAGE);
+        }        // TODO add your handling code here:
     }//GEN-LAST:event_jButton18ActionPerformed
 
     private void jTextField9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField9ActionPerformed
@@ -1610,6 +1701,23 @@ marcarMenu(BTNalumnos2);// TODO add your handling code here:
      * @param args the command line arguments
      */
     public static void main(String args[]) {
+        
+        
+        
+        
+        
+        
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
         // color de acento guinda para foco y selección
         com.formdev.flatlaf.FlatLaf.setGlobalExtraDefaults(
                 java.util.Collections.singletonMap("@accentColor", "#7A1F35"));
